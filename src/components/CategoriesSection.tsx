@@ -1,4 +1,3 @@
-
 import { GraduationCap, BookOpen, Book } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -127,13 +126,20 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
   const t = content[language];
 
   return (
-    <section id="guides" className="py-20 bg-gradient-to-b from-white to-green-50/30">
-      <div className="container mx-auto px-4">
+    <section id="guides" className="relative min-h-screen flex items-center">
+      {/* Background with Bangladesh landscape pattern */}
+      <div className="absolute inset-0 dark:bg-gradient-to-br dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 bg-gradient-to-br from-bangladesh-green/5 via-green-50 to-white">
+        <div className="absolute inset-0 opacity-10">
+          <div className="w-full h-full dark:bg-[url('data:image/svg+xml,%3Csvg width=%2760%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23FFFFFF%22 fill-opacity=%220.1%22%3E%3Cpath d=%22M30 30c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20zm0 0c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] bg-[url('data:image/svg+xml,%3Csvg width=%2760%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23006A4E%22 fill-opacity=%220.1%22%3E%3Cpath d=%22M30 30c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20zm0 0c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] bg-repeat"></div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className={`text-3xl md:text-5xl font-bold text-bangladesh-green mb-4 ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
+          <h2 className={`text-3xl md:text-5xl font-bold text-bangladesh-green dark:text-bangladesh-green-light mb-4 ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
             {t.title}
           </h2>
-          <p className={`text-lg md:text-xl text-gray-600 max-w-2xl mx-auto ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
+          <p className={`text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
             {t.subtitle}
           </p>
         </div>
@@ -147,27 +153,27 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
               <Link 
                 to={`/class/${classId}`}
                 key={index}
-                className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-gray-100 animate-fade-in"
+                className="group bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-gray-100 dark:border-gray-700 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-bangladesh-green to-bangladesh-green-light rounded-xl mb-6 group-hover:scale-110 transition-transform duration-300">
                   <IconComponent className="text-white" size={28} />
                 </div>
                 
-                <h3 className={`text-xl font-bold text-gray-800 mb-3 ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
+                <h3 className={`text-xl font-bold text-gray-800 dark:text-gray-100 mb-3 ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
                   {classItem.title}
                 </h3>
                 
-                <p className={`text-gray-600 mb-6 leading-relaxed ${language === 'bn' ? 'font-bengali text-sm' : 'font-english'}`}>
+                <p className={`text-gray-600 dark:text-gray-300 mb-6 leading-relaxed ${language === 'bn' ? 'font-bengali text-sm' : 'font-english'}`}>
                   {classItem.description}
                 </p>
                 
                 <div className="flex items-center justify-between">
-                  <span className={`inline-block bg-bangladesh-green/10 text-bangladesh-green px-4 py-2 rounded-full text-sm font-medium ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
+                  <span className={`inline-block bg-bangladesh-green/10 dark:bg-bangladesh-green/20 text-bangladesh-green dark:text-bangladesh-green-light px-4 py-2 rounded-full text-sm font-medium ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
                     {t.comingSoon}
                   </span>
-                  <div className="w-8 h-8 bg-bangladesh-green/10 rounded-full flex items-center justify-center group-hover:bg-bangladesh-green group-hover:text-white transition-colors duration-300">
-                    <span className="text-bangladesh-green group-hover:text-white">→</span>
+                  <div className="w-8 h-8 bg-bangladesh-green/10 dark:bg-bangladesh-green/20 rounded-full flex items-center justify-center group-hover:bg-bangladesh-green group-hover:text-white transition-colors duration-300">
+                    <span className="text-bangladesh-green dark:text-bangladesh-green-light group-hover:text-white">→</span>
                   </div>
                 </div>
               </Link>
