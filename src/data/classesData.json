@@ -1,0 +1,281 @@
+
+{
+  "classes": [
+    {
+      "id": "class1",
+      "name": {
+        "en": "Class 1",
+        "bn": "১ম শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla",
+          "name": {
+            "en": "My Bangla Book",
+            "bn": "আমার বাংলা বই"
+          }
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Primary Mathematics",
+            "bn": "প্রাথমিক গণিত"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class2",
+      "name": {
+        "en": "Class 2",
+        "bn": "২য় শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla",
+          "name": {
+            "en": "My Bangla Book",
+            "bn": "আমার বাংলা বই"
+          }
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Primary Mathematics",
+            "bn": "প্রাথমিক গণিত"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class3",
+      "name": {
+        "en": "Class 3",
+        "bn": "৩য় শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla",
+          "name": {
+            "en": "My Bangla Book",
+            "bn": "আমার বাংলা বই"
+          }
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Primary Mathematics",
+            "bn": "প্রাথমিক গণিত"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Primary Science",
+            "bn": "প্রাথমিক বিজ্ঞান"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "islam",
+          "name": {
+            "en": "Islam and Moral Education",
+            "bn": "ইসলাম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu",
+          "name": {
+            "en": "Hindu Religion and Moral Education",
+            "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist",
+          "name": {
+            "en": "Buddhist Religion and Moral Education",
+            "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "christian",
+          "name": {
+            "en": "Christian Religion and Moral Education",
+            "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class4",
+      "name": {
+        "en": "Class 4",
+        "bn": "৪র্থ শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla",
+          "name": {
+            "en": "My Bangla Book",
+            "bn": "আমার বাংলা বই"
+          }
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Primary Mathematics",
+            "bn": "প্রাথমিক গণিত"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Primary Science",
+            "bn": "প্রাথমিক বিজ্ঞান"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "islam",
+          "name": {
+            "en": "Islam and Moral Education",
+            "bn": "ইসলাম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu",
+          "name": {
+            "en": "Hindu Religion and Moral Education",
+            "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist",
+          "name": {
+            "en": "Buddhist Religion and Moral Education",
+            "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "christian",
+          "name": {
+            "en": "Christian Religion and Moral Education",
+            "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class5",
+      "name": {
+        "en": "Class 5",
+        "bn": "৫ম শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla",
+          "name": {
+            "en": "My Bangla Book",
+            "bn": "আমার বাংলা বই"
+          }
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Primary Mathematics",
+            "bn": "প্রাথমিক গণিত"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Primary Science",
+            "bn": "প্রাথমিক বিজ্ঞান"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "islam",
+          "name": {
+            "en": "Islam and Moral Education",
+            "bn": "ইসলাম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu",
+          "name": {
+            "en": "Hindu Religion and Moral Education",
+            "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist",
+          "name": {
+            "en": "Buddhist Religion and Moral Education",
+            "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
+          }
+        },
+        {
+          "id": "christian",
+          "name": {
+            "en": "Christian Religion and Moral Education",
+            "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
+          }
+        }
+      ]
+    }
+  ]
+}
