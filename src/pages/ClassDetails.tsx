@@ -1,8 +1,7 @@
-
-import { useState, useEffect } from 'react';
+import { useState, useEffect, createContext, useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import classesData from '../data/classesData.json';
-import { Book, ArrowLeft, Download, ExternalLink } from 'lucide-react';
+import { Book, ArrowLeft, Download, ExternalLink, Bookmark } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
@@ -25,10 +24,69 @@ interface ClassDetails {
   }[];
 }
 
+// Create Bookmark Context
+interface BookmarkContextType {
+  bookmarkedItems: string[];
+  addBookmark: (id: string) => void;
+  removeBookmark: (id: string) => void;
+  isBookmarked: (id: string) => boolean;
+}
+
+const BookmarkContext = createContext<BookmarkContextType | undefined>(undefined);
+
+// Bookmark Provider Component
+export const BookmarkProvider = ({ children }: { children: React.ReactNode }) => {
+  const [bookmarkedItems, setBookmarkedItems] = useState<string[]>([]);
+
+  useEffect(() => {
+    // Load bookmarked items from local storage on component mount
+    const storedBookmarks = localStorage.getItem('bookmarks');
+    if (storedBookmarks) {
+      setBookmarkedItems(JSON.parse(storedBookmarks));
+    }
+  }, []);
+
+  useEffect(() => {
+    // Save bookmarked items to local storage whenever it changes
+    localStorage.setItem('bookmarks', JSON.stringify(bookmarkedItems));
+  }, [bookmarkedItems]);
+
+  const addBookmark = (id: string) => {
+    setBookmarkedItems(prev => {
+      if (!prev.includes(id)) {
+        return [...prev, id];
+      }
+      return prev;
+    });
+  };
+
+  const removeBookmark = (id: string) => {
+    setBookmarkedItems(prev => prev.filter(item => item !== id));
+  };
+
+  const isBookmarked = (id: string) => bookmarkedItems.includes(id);
+
+  return (
+    <BookmarkContext.Provider value={{ bookmarkedItems, addBookmark, removeBookmark, isBookmarked }}>
+      {children}
+    </BookmarkContext.Provider>
+  );
+};
+
+// Hook to use Bookmark Context
+export const useBookmark = () => {
+  const context = useContext(BookmarkContext);
+  if (!context) {
+    throw new Error("useBookmark must be used within a BookmarkProvider");
+  }
+  return context;
+};
+
 const ClassDetails = () => {
   const [language, setLanguage] = useState<'en' | 'bn'>('en');
   const { classId } = useParams<{ classId: string }>();
   const [classDetails, setClassDetails] = useState<ClassDetails | null>(null);
+  const { addBookmark, removeBookmark, isBookmarked } = useBookmark();
 
   const handleLanguageChange = (lang: 'en' | 'bn') => {
     setLanguage(lang);
@@ -86,7 +144,7 @@ const ClassDetails = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
       <Header language={language} onLanguageChange={handleLanguageChange} />
-      
+
       <div className="container mx-auto px-4 py-12">
         <div className="mb-6">
           <Link to="/" className="flex items-center text-bangladesh-green hover:text-bangladesh-green-light dark:text-bangladesh-green-light dark:hover:text-white transition-colors">
@@ -130,31 +188,39 @@ const ClassDetails = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="pt-4">
-                    <p className={`text-gray-600 dark:text-gray-300 mb-4 ${language === 'bn' ? 'font-bengali' : ''}`}>
+                    <p className={`text-gray-600 dark:text-gray-300 mb-4 ${language === 'bn' ? 'font-bengali text-sm' : ''}`}>
                       {language === 'bn' 
                         ? `${subject.name.bn} বইয়ের পিডিএফ ডাউনলোড করুন।` 
                         : `Download PDF of ${subject.name.bn} book.`}
                     </p>
-                    
-                    <div className="grid grid-cols-2 gap-2">
-                      <Button 
-                        onClick={() => handleViewPdf(subject.name.bn)}
-                        className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`} 
-                        variant="outline"
-                      >
-                        <ExternalLink size={16} className="mr-1" />
-                        {language === 'bn' ? 'দেখুন' : 'View'}
-                      </Button>
-                      
-                      <Button 
-                        onClick={() => handleDownloadPdf(subject.name.bn)}
-                        className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`}
-                      >
-                        <Download size={16} className="mr-1" />
-                        {language === 'bn' ? 'ডাউনলোড' : 'Download'}
-                      </Button>
-                    </div>
+                    <button
+                      onClick={() => isBookmarked(subject.id) ? removeBookmark(subject.id) : addBookmark(subject.id)}
+                      className={`mb-4 flex items-center text-sm ${isBookmarked(subject.id) ? 'text-yellow-500' : 'text-gray-500'}`}
+                    >
+                      <Bookmark className="w-4 h-4 mr-1" />
+                      {language === 'bn' 
+                        ? (isBookmarked(subject.id) ? 'বুকমার্ক করা আছে' : 'বুকমার্ক করুন')
+                        : (isBookmarked(subject.id) ? 'Bookmarked' : 'Bookmark')}
+                    </button>
                   </CardContent>
+                  <div className="grid grid-cols-2 gap-2 p-4">
+                    <Button 
+                      onClick={() => handleViewPdf(subject.name.bn)}
+                      className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`} 
+                      variant="outline"
+                    >
+                      <ExternalLink size={16} className="mr-1" />
+                      {language === 'bn' ? 'দেখুন' : 'View'}
+                    </Button>
+
+                    <Button 
+                      onClick={() => handleDownloadPdf(subject.name.bn)}
+                      className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`}
+                    >
+                      <Download size={16} className="mr-1" />
+                      {language === 'bn' ? 'ডাউনলোড' : 'Download'}
+                    </Button>
+                  </div>
                 </Card>
               ))}
             </div>
@@ -177,33 +243,41 @@ const ClassDetails = () => {
                         ? `${subject.name.en} বইয়ের পিডিএফ ডাউনলোড করুন।` 
                         : `Download PDF of ${subject.name.en} book.`}
                     </p>
-                    
-                    <div className="grid grid-cols-2 gap-2">
-                      <Button 
-                        onClick={() => handleViewPdf(subject.name.en)}
-                        className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`} 
-                        variant="outline"
-                      >
-                        <ExternalLink size={16} className="mr-1" />
-                        {language === 'bn' ? 'দেখুন' : 'View'}
-                      </Button>
-                      
-                      <Button 
-                        onClick={() => handleDownloadPdf(subject.name.en)}
-                        className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`}
-                      >
-                        <Download size={16} className="mr-1" />
-                        {language === 'bn' ? 'ডাউনলোড' : 'Download'}
-                      </Button>
-                    </div>
+                    <button
+                      onClick={() => isBookmarked(subject.id) ? removeBookmark(subject.id) : addBookmark(subject.id)}
+                      className={`mb-4 flex items-center text-sm ${isBookmarked(subject.id) ? 'text-yellow-500' : 'text-gray-500'}`}
+                    >
+                      <Bookmark className="w-4 h-4 mr-1" />
+                      {language === 'bn' 
+                        ? (isBookmarked(subject.id) ? 'বুকমার্ক করা আছে' : 'বুকমার্ক করুন')
+                        : (isBookmarked(subject.id) ? 'Bookmarked' : 'Bookmark')}
+                    </button>
                   </CardContent>
+                  <div className="grid grid-cols-2 gap-2 p-4">
+                    <Button 
+                      onClick={() => handleViewPdf(subject.name.en)}
+                      className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`} 
+                      variant="outline"
+                    >
+                      <ExternalLink size={16} className="mr-1" />
+                      {language === 'bn' ? 'দেখুন' : 'View'}
+                    </Button>
+
+                    <Button 
+                      onClick={() => handleDownloadPdf(subject.name.en)}
+                      className={`w-full ${language === 'bn' ? 'font-bengali' : ''}`}
+                    >
+                      <Download size={16} className="mr-1" />
+                      {language === 'bn' ? 'ডাউনলোড' : 'Download'}
+                    </Button>
+                  </div>
                 </Card>
               ))}
             </div>
           </TabsContent>
         </Tabs>
       </div>
-      
+
       <Footer language={language} />
     </div>
   );
