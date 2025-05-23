@@ -24,63 +24,7 @@ interface ClassDetails {
   }[];
 }
 
-// Create Bookmark Context
-interface BookmarkContextType {
-  bookmarkedItems: string[];
-  addBookmark: (id: string) => void;
-  removeBookmark: (id: string) => void;
-  isBookmarked: (id: string) => boolean;
-}
-
-const BookmarkContext = createContext<BookmarkContextType | undefined>(undefined);
-
-// Bookmark Provider Component
-export const BookmarkProvider = ({ children }: { children: React.ReactNode }) => {
-  const [bookmarkedItems, setBookmarkedItems] = useState<string[]>([]);
-
-  useEffect(() => {
-    // Load bookmarked items from local storage on component mount
-    const storedBookmarks = localStorage.getItem('bookmarks');
-    if (storedBookmarks) {
-      setBookmarkedItems(JSON.parse(storedBookmarks));
-    }
-  }, []);
-
-  useEffect(() => {
-    // Save bookmarked items to local storage whenever it changes
-    localStorage.setItem('bookmarks', JSON.stringify(bookmarkedItems));
-  }, [bookmarkedItems]);
-
-  const addBookmark = (id: string) => {
-    setBookmarkedItems(prev => {
-      if (!prev.includes(id)) {
-        return [...prev, id];
-      }
-      return prev;
-    });
-  };
-
-  const removeBookmark = (id: string) => {
-    setBookmarkedItems(prev => prev.filter(item => item !== id));
-  };
-
-  const isBookmarked = (id: string) => bookmarkedItems.includes(id);
-
-  return (
-    <BookmarkContext.Provider value={{ bookmarkedItems, addBookmark, removeBookmark, isBookmarked }}>
-      {children}
-    </BookmarkContext.Provider>
-  );
-};
-
-// Hook to use Bookmark Context
-export const useBookmark = () => {
-  const context = useContext(BookmarkContext);
-  if (!context) {
-    throw new Error("useBookmark must be used within a BookmarkProvider");
-  }
-  return context;
-};
+import { useBookmark } from '../contexts/BookmarkContext';
 
 const ClassDetails = () => {
   const [language, setLanguage] = useState<'en' | 'bn'>('en');
