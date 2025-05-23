@@ -2,53 +2,54 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 
 interface BookmarkContextType {
-  bookmarks: string[];
-  addBookmark: (subjectId: string) => void;
-  removeBookmark: (subjectId: string) => void;
-  isBookmarked: (subjectId: string) => boolean;
+  bookmarkedItems: string[];
+  addBookmark: (id: string) => void;
+  removeBookmark: (id: string) => void;
+  isBookmarked: (id: string) => boolean;
 }
 
 const BookmarkContext = createContext<BookmarkContextType | undefined>(undefined);
 
-export function BookmarkProvider({ children }: { children: React.ReactNode }) {
-  const [bookmarks, setBookmarks] = useState<string[]>([]);
+export const BookmarkProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [bookmarkedItems, setBookmarkedItems] = useState<string[]>([]);
 
   useEffect(() => {
-    const stored = localStorage.getItem('bookmarks');
-    if (stored) {
-      setBookmarks(JSON.parse(stored));
+    const storedBookmarks = localStorage.getItem('bookmarks');
+    if (storedBookmarks) {
+      setBookmarkedItems(JSON.parse(storedBookmarks));
     }
   }, []);
 
-  const addBookmark = (subjectId: string) => {
-    setBookmarks((prev) => {
-      const newBookmarks = [...prev, subjectId];
-      localStorage.setItem('bookmarks', JSON.stringify(newBookmarks));
-      return newBookmarks;
+  useEffect(() => {
+    localStorage.setItem('bookmarks', JSON.stringify(bookmarkedItems));
+  }, [bookmarkedItems]);
+
+  const addBookmark = (id: string) => {
+    setBookmarkedItems(prev => {
+      if (!prev.includes(id)) {
+        return [...prev, id];
+      }
+      return prev;
     });
   };
 
-  const removeBookmark = (subjectId: string) => {
-    setBookmarks((prev) => {
-      const newBookmarks = prev.filter(id => id !== subjectId);
-      localStorage.setItem('bookmarks', JSON.stringify(newBookmarks));
-      return newBookmarks;
-    });
+  const removeBookmark = (id: string) => {
+    setBookmarkedItems(prev => prev.filter(item => item !== id));
   };
 
-  const isBookmarked = (subjectId: string) => bookmarks.includes(subjectId);
+  const isBookmarked = (id: string) => bookmarkedItems.includes(id);
 
   return (
-    <BookmarkContext.Provider value={{ bookmarks, addBookmark, removeBookmark, isBookmarked }}>
+    <BookmarkContext.Provider value={{ bookmarkedItems, addBookmark, removeBookmark, isBookmarked }}>
       {children}
     </BookmarkContext.Provider>
   );
-}
+};
 
-export const useBookmarks = () => {
+export const useBookmark = () => {
   const context = useContext(BookmarkContext);
-  if (context === undefined) {
-    throw new Error('useBookmarks must be used within a BookmarkProvider');
+  if (!context) {
+    throw new Error("useBookmark must be used within a BookmarkProvider");
   }
   return context;
 };
