@@ -2,14 +2,15 @@
 import { useEffect, useState } from 'react';
 
 const Background = () => {
-  const [stars, setStars] = useState<{ id: number; top: string; left: string; delay: string }[]>([]);
+  const [stars, setStars] = useState<{ id: number; top: string; left: string; delay: string; size: string }[]>([]);
 
   useEffect(() => {
-    const newStars = Array.from({ length: 50 }, (_, i) => ({
+    const newStars = Array.from({ length: 100 }, (_, i) => ({
       id: i,
       top: `${Math.random() * 100}%`,
       left: `${Math.random() * 100}%`,
-      delay: `${Math.random() * 2}s`
+      delay: `${Math.random() * 3}s`,
+      size: `${Math.random() * 2 + 1}px`
     }));
     setStars(newStars);
   }, []);
@@ -23,7 +24,9 @@ const Background = () => {
           style={{
             top: star.top,
             left: star.left,
-            animationDelay: star.delay
+            animationDelay: star.delay,
+            width: star.size,
+            height: star.size
           }}
         />
       ))}
