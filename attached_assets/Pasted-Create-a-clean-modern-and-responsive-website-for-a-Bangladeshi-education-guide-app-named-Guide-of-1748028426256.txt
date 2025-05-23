@@ -1,0 +1,91 @@
+Create a clean, modern, and responsive website for a Bangladeshi education guide app named "Guide of Every Class," focusing on education guides for classes 1 to 10. The app should feel friendly, helpful, and calming, using a color palette of green and white (symbolizing peace and growth), Bengali-style fonts (e.g., Noto Serif Bengali), and elements reflecting Bangladesh (e.g., rivers, nature, or landmarks). The website should prioritize a mobile-first, lag-free design with smooth animations, large touch-friendly buttons, and a stunning UI featuring calming effects like floating stars, subtle gradients, and interactive hover effects. All text and UI must be multilingual-ready (English and Bengali) with seamless language switching. Use Tailwind CSS for styling and simple HTML/JavaScript for layout and functionality, optimizing for performance to minimize lag.
+
+Homepage Requirements:
+Welcome Section: Feature a large, bold title and subtitle introducing the app, with a welcoming tone.
+Featured Background: Use a high-quality, calming background image related to Bangladesh (e.g., Padma River, Sundarbans, or tea gardens), optimized for fast loading.
+Buttons: Include fully functional buttons for:
+Browse Guides: Scrolls to the classes section.
+Download PDF: Placeholder for downloading a sample PDF (to be replaced later).
+Contact: Opens a modal or alert for contact (placeholder for future form).
+Categories Section: Display 10 categories (Class 1 to Class 10) as interactive cards with a ‘Coming Soon’ placeholder, using subtle hover animations (e.g., scale or shadow effects).
+Footer: Include copyright, social media links (Facebook, Twitter, Instagram), and a "Made in Bangladesh with ❤️" label, styled to match the theme.
+Class and Subject Navigation:
+Clicking a class (e.g., Class 1) displays a subjects section, dynamically populated from a guides.json file.
+The JSON file should include:
+id: Class identifier (e.g., "class1", "class2", ..., "class10").
+subjects: Array of subjects, each with:
+name: Subject name (e.g., Bangla, English, Math, Science, Social Studies).
+version: "Bangla" or "English".
+file_path: Path to the PDF in the guides folder (e.g., "guides/class1_bangla.pdf").
+After clicking a class, display subjects in two sections:
+Bangla Version: A header-like section (styled like a sticky footer) followed by Bangla-medium subject cards.
+English Version: A header-like section after Bangla subjects, followed by English-medium subject cards.
+Clicking a subject displays a placeholder PDF viewer (for PDFs to be added later) with a clean, centered iframe.
+Optimize navigation to prevent lag by using efficient DOM manipulation and lazy-loading cards where applicable.
+Additional Features:
+Theme Toggle: Implement a dark/light theme toggle that works consistently across all pages/sections, storing the preference in localStorage for persistence. Use Tailwind’s dark mode classes for seamless transitions.
+Home Button: Add a functional home button in the header, working on all pages/sections to return to the homepage.
+Bookmark/Favorite Guides:
+Allow users to bookmark guides by clicking a "Bookmark" button on subject cards.
+Store bookmarks in localStorage and display them in a dedicated "Bookmarked Guides" section, accessible via a button or menu.
+Include a "Remove Bookmark" option on bookmarked guides.
+Guides Folder: Reference a guides folder for storing PDFs, with guides.json linking to these files.
+Enhanced UI:
+Add calming effects like floating stars (using CSS animations) and subtle gradients in backgrounds or cards.
+Implement interactive hover effects (e.g., card scaling, shadow growth, or color shifts) for a polished look.
+Use smooth scroll behavior and transitions for section changes to enhance user experience.
+Multilingual Support:
+Implement a language toggle (English/Bengali) that updates all text/UI instantly using data-en and data-bn attributes.
+Ensure font rendering for Bengali (Noto Serif Bengali) is crisp and legible.
+Search Functionality:
+Add a search bar to filter classes or subjects dynamically, updating results in real-time without page reloads.
+Highlight matching results with subtle animations.
+Guide Previews:
+Include a "Preview" button on subject cards to show a modal with a brief description or placeholder text about the guide.
+Progress Tracking:
+Allow users to mark guides as "Completed" or "In Progress" with a simple status toggle, stored in localStorage.
+Display progress in the bookmarked guides section (e.g., a progress badge on cards).
+Performance Optimizations:
+Lazy-load images and cards outside the viewport to reduce initial load time.
+Minimize JavaScript by debouncing event listeners and using efficient DOM queries.
+Compress and optimize the background image to reduce lag without sacrificing quality.
+Additional Creative Features:
+Add a "Recently Viewed" section to show the last 3–5 guides accessed, stored in localStorage.
+Include a subtle notification system (e.g., toast messages) for actions like bookmarking or switching themes.
+Add a "Quick Tips" section with educational tips or motivational quotes, styled as a carousel or static cards.
+Implement a sticky navigation bar for easy access to Home, Bookmarks, and Search across all sections.
+JSON File Structure:
+Create a guides.json file with:
+
+id: Class identifier (e.g., "class1", "class2", ..., "class10").
+subjects: Array of subjects, each with:
+name: Subject name (e.g., Bangla, English, Math, Science, Social Studies).
+version: "Bangla" or "English".
+file_path: Path to the PDF in the guides folder (e.g., "guides/class1_bangla.pdf").
+description: Brief description for preview (e.g., "Comprehensive Bangla guide for Class 1").
+Fixes and Improvements:
+Ensure the dark/light theme toggle works seamlessly across all sections, with no visual glitches.
+Fix the home button to consistently return to the homepage from any section (classes, subjects, PDF viewer, bookmarks).
+Remove unnecessary elements (e.g., unused buttons or redundant sections) to keep the design clean and focused.
+Enhance attractiveness with:
+Subtle gradients in card backgrounds or buttons for depth.
+Interactive hover effects like card tilting or glowing borders.
+Calming animations like fading transitions or pulsating buttons.
+A cohesive color scheme with shades of green (e.g., #10B981, #059669) and soft whites/grays.
+Optimize for performance by:
+Using requestAnimationFrame for animations.
+Avoiding heavy DOM operations during scrolls or clicks.
+Caching JSON data to reduce fetch calls.
+Technical Requirements:
+Use Tailwind CSS for styling, leveraging its utility classes for responsiveness and dark mode.
+Use simple HTML and JavaScript for layout and functionality, avoiding heavy frameworks.
+Store PDFs in a guides folder, referenced in guides.json.
+Ensure all buttons (Browse Guides, Download PDF, Contact, Home, Theme Toggle, Bookmark, Search) are fully functional.
+Use placeholder cards with ‘Coming Soon’ text for guides until PDFs are added.
+Avoid <form> elements due to sandbox restrictions; use className for JSX compatibility if applicable.
+Ensure compatibility with modern browsers, with fallbacks for older ones.
+
+just make this text a big prompt
+
+
+Below is the consolidated prompt combining all your requirements into a single, cohes
