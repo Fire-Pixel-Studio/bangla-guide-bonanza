@@ -100,6 +100,104 @@
             "en": "Science",
             "bn": "বিজ্ঞান"
           }
+        },
+        {
+          "id": "physical_education",
+          "name": {
+            "en": "Physical Education and Health",
+            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
+          }
+        },
+        {
+          "id": "work_education",
+          "name": {
+            "en": "Work and Life Oriented Education",
+            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
+          }
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          }
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          }
+        },
+        {
+          "id": "arts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          }
+        },
+        {
+          "id": "islam",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "christian",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "arabic",
+          "name": {
+            "en": "Illustrated Arabic Reading",
+            "bn": "সচিত্র আরবি পাঠ"
+          }
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          }
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          }
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
+          }
+        },
+        {
+          "id": "minority_language",
+          "name": {
+            "en": "Language and Culture of Minority Ethnic Groups",
+            "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
+          }
         }
       ]
     },
@@ -172,6 +270,104 @@
             "en": "Science",
             "bn": "বিজ্ঞান"
           }
+        },
+        {
+          "id": "physical_education",
+          "name": {
+            "en": "Physical Education and Health",
+            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
+          }
+        },
+        {
+          "id": "work_education",
+          "name": {
+            "en": "Work and Life Oriented Education",
+            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
+          }
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          }
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          }
+        },
+        {
+          "id": "arts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          }
+        },
+        {
+          "id": "islam",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "christian",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "arabic",
+          "name": {
+            "en": "Easy Arabic Reading",
+            "bn": "সহজ আরবি পাঠ"
+          }
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          }
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          }
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
+          }
+        },
+        {
+          "id": "minority_language",
+          "name": {
+            "en": "Language and Culture of Minority Ethnic Groups",
+            "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
+          }
         }
       ]
     },
@@ -243,6 +439,97 @@
           "name": {
             "en": "Science",
             "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "physical_education",
+          "name": {
+            "en": "Physical Education and Health",
+            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
+          }
+        },
+        {
+          "id": "work_education",
+          "name": {
+            "en": "Work and Life Oriented Education",
+            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
+          }
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          }
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          }
+        },
+        {
+          "id": "arts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          }
+        },
+        {
+          "id": "islam",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "christian",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "arabic",
+          "name": {
+            "en": "Easy Arabic Reading",
+            "bn": "সহজ আরবি পাঠ"
+          }
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          }
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          }
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
           }
         }
       ]
@@ -332,10 +619,150 @@
           }
         },
         {
+          "id": "geography",
+          "name": {
+            "en": "Geography and Environment",
+            "bn": "ভূগোল ও পরিবেশ"
+          }
+        },
+        {
+          "id": "economics",
+          "name": {
+            "en": "Economics",
+            "bn": "অর্থনীতি"
+          }
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          }
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          }
+        },
+        {
+          "id": "civics",
+          "name": {
+            "en": "Civics and Citizenship",
+            "bn": "পৌরনীতি ও নাগরিকতা"
+          }
+        },
+        {
+          "id": "accounting",
+          "name": {
+            "en": "Accounting",
+            "bn": "হিসাববিজ্ঞান"
+          }
+        },
+        {
+          "id": "finance",
+          "name": {
+            "en": "Finance and Banking",
+            "bn": "ফিন্যান্স ও ব্যাংকিং"
+          }
+        },
+        {
+          "id": "business",
+          "name": {
+            "en": "Business Entrepreneurship",
+            "bn": "ব্যবসায় উদ্যোগ"
+          }
+        },
+        {
+          "id": "islam",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "christian",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "career",
+          "name": {
+            "en": "Career Education",
+            "bn": "ক্যারিয়ার শিক্ষা"
+          }
+        },
+        {
           "id": "bgs",
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "arts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          }
+        },
+        {
+          "id": "history",
+          "name": {
+            "en": "History of Bangladesh and World Civilization",
+            "bn": "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা"
+          }
+        },
+        {
+          "id": "physical_education",
+          "name": {
+            "en": "Physical Education, Health Science and Sports",
+            "bn": "শারীরিক শিক্ষা, স্বাস্থ্যবিজ্ঞান ও খেলাধুলা"
+          }
+        },
+        {
+          "id": "arabic",
+          "name": {
+            "en": "Arabic",
+            "bn": "আরবি"
+          }
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          }
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          }
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
           }
         }
       ]
