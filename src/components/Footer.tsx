@@ -17,7 +17,7 @@ const Footer = ({ language }: FooterProps) => {
       privacy: 'Privacy Policy',
       terms: 'Terms of Service',
       followUs: 'Follow Us',
-      copyright: '© 2024 Bangladesh Guide. All rights reserved.',
+      copyright: '© 2024 Guide of Every Class. All rights reserved.',
       madeInBangladesh: 'Made in Bangladesh'
     },
     bn: {
@@ -30,7 +30,7 @@ const Footer = ({ language }: FooterProps) => {
       privacy: 'গোপনীয়তা নীতি',
       terms: 'সেবার শর্তাবলী',
       followUs: 'আমাদের ফলো করুন',
-      copyright: '© ২০২৪ বাংলাদেশ গাইড। সমস্ত অধিকার সংরক্ষিত।',
+      copyright: '© ২০২৪ প্রতিটি শ্রেণীর গাইড। সমস্ত অধিকার সংরক্ষিত।',
       madeInBangladesh: 'মেইড ইন বাংলাদেশ'
     }
   };
@@ -38,7 +38,7 @@ const Footer = ({ language }: FooterProps) => {
   const t = content[language];
 
   return (
-    <footer className="bg-gradient-to-br from-bangladesh-green to-bangladesh-green-light text-white">
+    <footer className="bg-gradient-to-br from-bangladesh-green to-bangladesh-green-light dark:from-gray-900 dark:to-gray-800 text-white transition-colors duration-200">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Section */}
@@ -48,7 +48,7 @@ const Footer = ({ language }: FooterProps) => {
                 <span className="text-white font-bold text-xl font-bengali">বা</span>
               </div>
               <h3 className={`text-2xl font-bold ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
-                {language === 'bn' ? 'বাংলাদেশ গাইড' : 'Bangladesh Guide'}
+                {language === 'bn' ? 'প্রতিটি শ্রেণীর গাইড' : 'Guide of Every Class'}
               </h3>
             </div>
             <p className={`text-white/80 mb-6 leading-relaxed max-w-md ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
