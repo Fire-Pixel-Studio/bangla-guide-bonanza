@@ -32,17 +32,31 @@
       ]
     },
     {
-      "id": "class2",
+      "id": "class6",
       "name": {
-        "en": "Class 2",
-        "bn": "২য় শ্রেণি"
+        "en": "Class 6",
+        "bn": "৬ষ্ঠ শ্রেণি"
       },
       "subjects": [
         {
-          "id": "bangla",
+          "id": "charupath",
           "name": {
-            "en": "My Bangla Book",
-            "bn": "আমার বাংলা বই"
+            "en": "Charupath",
+            "bn": "চারুপাঠ"
+          }
+        },
+        {
+          "id": "anandapath",
+          "name": {
+            "en": "Anandapath",
+            "bn": "আনন্দপাঠ"
+          }
+        },
+        {
+          "id": "bangla_grammar",
+          "name": {
+            "en": "Bangla Grammar and Composition",
+            "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
           }
         },
         {
@@ -53,47 +67,24 @@
           }
         },
         {
-          "id": "math",
+          "id": "english_grammar",
           "name": {
-            "en": "Primary Mathematics",
-            "bn": "প্রাথমিক গণিত"
-          }
-        }
-      ]
-    },
-    {
-      "id": "class3",
-      "name": {
-        "en": "Class 3",
-        "bn": "৩য় শ্রেণি"
-      },
-      "subjects": [
-        {
-          "id": "bangla",
-          "name": {
-            "en": "My Bangla Book",
-            "bn": "আমার বাংলা বই"
-          }
-        },
-        {
-          "id": "english",
-          "name": {
-            "en": "English for Today",
-            "bn": "ইংরেজি ফর টুডে"
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
           }
         },
         {
           "id": "math",
           "name": {
-            "en": "Primary Mathematics",
-            "bn": "প্রাথমিক গণিত"
+            "en": "Mathematics",
+            "bn": "গণিত"
           }
         },
         {
-          "id": "science",
+          "id": "ict",
           "name": {
-            "en": "Primary Science",
-            "bn": "প্রাথমিক বিজ্ঞান"
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
           }
         },
         {
@@ -104,47 +95,40 @@
           }
         },
         {
-          "id": "islam",
+          "id": "science",
           "name": {
-            "en": "Islam and Moral Education",
-            "bn": "ইসলাম ও নৈতিক শিক্ষা"
-          }
-        },
-        {
-          "id": "hindu",
-          "name": {
-            "en": "Hindu Religion and Moral Education",
-            "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
-          }
-        },
-        {
-          "id": "buddhist",
-          "name": {
-            "en": "Buddhist Religion and Moral Education",
-            "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
-          }
-        },
-        {
-          "id": "christian",
-          "name": {
-            "en": "Christian Religion and Moral Education",
-            "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
+            "en": "Science",
+            "bn": "বিজ্ঞান"
           }
         }
       ]
     },
     {
-      "id": "class4",
+      "id": "class7",
       "name": {
-        "en": "Class 4",
-        "bn": "৪র্থ শ্রেণি"
+        "en": "Class 7",
+        "bn": "৭ম শ্রেণি"
       },
       "subjects": [
         {
-          "id": "bangla",
+          "id": "saptabarna",
           "name": {
-            "en": "My Bangla Book",
-            "bn": "আমার বাংলা বই"
+            "en": "Saptabarna",
+            "bn": "সপ্তবর্ণা"
+          }
+        },
+        {
+          "id": "anandapath",
+          "name": {
+            "en": "Anandapath",
+            "bn": "আনন্দপাঠ"
+          }
+        },
+        {
+          "id": "bangla_grammar",
+          "name": {
+            "en": "Bangla Grammar and Composition",
+            "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
           }
         },
         {
@@ -155,17 +139,24 @@
           }
         },
         {
-          "id": "math",
+          "id": "english_grammar",
           "name": {
-            "en": "Primary Mathematics",
-            "bn": "প্রাথমিক গণিত"
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
           }
         },
         {
-          "id": "science",
+          "id": "math",
           "name": {
-            "en": "Primary Science",
-            "bn": "প্রাথমিক বিজ্ঞান"
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
           }
         },
         {
@@ -176,47 +167,40 @@
           }
         },
         {
-          "id": "islam",
+          "id": "science",
           "name": {
-            "en": "Islam and Moral Education",
-            "bn": "ইসলাম ও নৈতিক শিক্ষা"
-          }
-        },
-        {
-          "id": "hindu",
-          "name": {
-            "en": "Hindu Religion and Moral Education",
-            "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
-          }
-        },
-        {
-          "id": "buddhist",
-          "name": {
-            "en": "Buddhist Religion and Moral Education",
-            "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
-          }
-        },
-        {
-          "id": "christian",
-          "name": {
-            "en": "Christian Religion and Moral Education",
-            "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
+            "en": "Science",
+            "bn": "বিজ্ঞান"
           }
         }
       ]
     },
     {
-      "id": "class5",
+      "id": "class8",
       "name": {
-        "en": "Class 5",
-        "bn": "৫ম শ্রেণি"
+        "en": "Class 8",
+        "bn": "৮ম শ্রেণি"
       },
       "subjects": [
         {
-          "id": "bangla",
+          "id": "sahitya_kanika",
           "name": {
-            "en": "My Bangla Book",
-            "bn": "আমার বাংলা বই"
+            "en": "Sahitya-Kanika",
+            "bn": "সাহিত্য-কণিকা"
+          }
+        },
+        {
+          "id": "anandapath",
+          "name": {
+            "en": "Anandapath",
+            "bn": "আনন্দপাঠ"
+          }
+        },
+        {
+          "id": "bangla_grammar",
+          "name": {
+            "en": "Bangla Grammar and Composition",
+            "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
           }
         },
         {
@@ -227,17 +211,24 @@
           }
         },
         {
-          "id": "math",
+          "id": "english_grammar",
           "name": {
-            "en": "Primary Mathematics",
-            "bn": "প্রাথমিক গণিত"
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
           }
         },
         {
-          "id": "science",
+          "id": "math",
           "name": {
-            "en": "Primary Science",
-            "bn": "প্রাথমিক বিজ্ঞান"
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
           }
         },
         {
@@ -248,31 +239,103 @@
           }
         },
         {
-          "id": "islam",
+          "id": "science",
           "name": {
-            "en": "Islam and Moral Education",
-            "bn": "ইসলাম ও নৈতিক শিক্ষা"
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class9_10",
+      "name": {
+        "en": "Class 9-10",
+        "bn": "৯ম-১০ম শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla_literature",
+          "name": {
+            "en": "Bangla Literature",
+            "bn": "বাংলা সাহিত্য"
           }
         },
         {
-          "id": "hindu",
+          "id": "bangla_sahopath",
           "name": {
-            "en": "Hindu Religion and Moral Education",
-            "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
+            "en": "Bangla Sahopath",
+            "bn": "বাংলা সহপাঠ"
           }
         },
         {
-          "id": "buddhist",
+          "id": "bangla_grammar",
           "name": {
-            "en": "Buddhist Religion and Moral Education",
-            "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
+            "en": "Bangla Language Grammar and Composition",
+            "bn": "বাংলা ভাষার ব্যাকরণ ও নির্মিতি"
           }
         },
         {
-          "id": "christian",
+          "id": "english",
           "name": {
-            "en": "Christian Religion and Moral Education",
-            "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "english_grammar",
+          "name": {
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "higher_math",
+          "name": {
+            "en": "Higher Mathematics",
+            "bn": "উচ্চতর গণিত"
+          }
+        },
+        {
+          "id": "physics",
+          "name": {
+            "en": "Physics",
+            "bn": "পদার্থবিজ্ঞান"
+          }
+        },
+        {
+          "id": "chemistry",
+          "name": {
+            "en": "Chemistry",
+            "bn": "রসায়ন"
+          }
+        },
+        {
+          "id": "biology",
+          "name": {
+            "en": "Biology",
+            "bn": "জীববিজ্ঞান"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
           }
         }
       ]
