@@ -1,0 +1,487 @@
+
+{
+  "classes": [
+    {
+      "id": "class1",
+      "name": {
+        "en": "Class 1",
+        "bn": "১ম শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla1",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english1",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math1",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class2",
+      "name": {
+        "en": "Class 2",
+        "bn": "২য় শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla2",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english2",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math2",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class3",
+      "name": {
+        "en": "Class 3",
+        "bn": "৩য় শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla3",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english3",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math3",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "science3",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class4",
+      "name": {
+        "en": "Class 4",
+        "bn": "৪র্থ শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla4",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english4",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math4",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "science4",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "socialStudies4",
+          "name": {
+            "en": "Bangladesh & Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্ব পরিচয়"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class5",
+      "name": {
+        "en": "Class 5",
+        "bn": "৫ম শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla5",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english5",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math5",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "science5",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "socialStudies5",
+          "name": {
+            "en": "Bangladesh & Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্ব পরিচয়"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class6",
+      "name": {
+        "en": "Class 6",
+        "bn": "৬ষ্ঠ শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla6",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english6",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math6",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "science6",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "socialStudies6",
+          "name": {
+            "en": "Bangladesh & Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্ব পরিচয়"
+          }
+        },
+        {
+          "id": "religion6",
+          "name": {
+            "en": "Religious Studies",
+            "bn": "ধর্ম শিক্ষা"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class7",
+      "name": {
+        "en": "Class 7",
+        "bn": "৭ম শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla7",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english7",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math7",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "science7",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "socialStudies7",
+          "name": {
+            "en": "Bangladesh & Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্ব পরিচয়"
+          }
+        },
+        {
+          "id": "religion7",
+          "name": {
+            "en": "Religious Studies",
+            "bn": "ধর্ম শিক্ষা"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class8",
+      "name": {
+        "en": "Class 8",
+        "bn": "৮ম শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla8",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english8",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math8",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "physics8",
+          "name": {
+            "en": "Physics",
+            "bn": "পদার্থবিজ্ঞান"
+          }
+        },
+        {
+          "id": "chemistry8",
+          "name": {
+            "en": "Chemistry",
+            "bn": "রসায়ন"
+          }
+        },
+        {
+          "id": "biology8",
+          "name": {
+            "en": "Biology",
+            "bn": "জীববিজ্ঞান"
+          }
+        },
+        {
+          "id": "socialStudies8",
+          "name": {
+            "en": "Bangladesh & Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্ব পরিচয়"
+          }
+        },
+        {
+          "id": "religion8",
+          "name": {
+            "en": "Religious Studies",
+            "bn": "ধর্ম শিক্ষা"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class9",
+      "name": {
+        "en": "Class 9",
+        "bn": "৯ম শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla9",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english9",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math9",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "physics9",
+          "name": {
+            "en": "Physics",
+            "bn": "পদার্থবিজ্ঞান"
+          }
+        },
+        {
+          "id": "chemistry9",
+          "name": {
+            "en": "Chemistry",
+            "bn": "রসায়ন"
+          }
+        },
+        {
+          "id": "biology9",
+          "name": {
+            "en": "Biology",
+            "bn": "জীববিজ্ঞান"
+          }
+        },
+        {
+          "id": "higherMath9",
+          "name": {
+            "en": "Higher Mathematics",
+            "bn": "উচ্চতর গণিত"
+          }
+        },
+        {
+          "id": "socialStudies9",
+          "name": {
+            "en": "Bangladesh & Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্ব পরিচয়"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class10",
+      "name": {
+        "en": "Class 10",
+        "bn": "১০ম শ্রেণী"
+      },
+      "subjects": [
+        {
+          "id": "bangla10",
+          "name": {
+            "en": "Bangla",
+            "bn": "বাংলা"
+          }
+        },
+        {
+          "id": "english10",
+          "name": {
+            "en": "English",
+            "bn": "ইংরেজি"
+          }
+        },
+        {
+          "id": "math10",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "physics10",
+          "name": {
+            "en": "Physics",
+            "bn": "পদার্থবিজ্ঞান"
+          }
+        },
+        {
+          "id": "chemistry10",
+          "name": {
+            "en": "Chemistry",
+            "bn": "রসায়ন"
+          }
+        },
+        {
+          "id": "biology10",
+          "name": {
+            "en": "Biology",
+            "bn": "জীববিজ্ঞান"
+          }
+        },
+        {
+          "id": "higherMath10",
+          "name": {
+            "en": "Higher Mathematics",
+            "bn": "উচ্চতর গণিত"
+          }
+        },
+        {
+          "id": "socialStudies10",
+          "name": {
+            "en": "Bangladesh & Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্ব পরিচয়"
+          }
+        }
+      ]
+    }
+  ]
+}

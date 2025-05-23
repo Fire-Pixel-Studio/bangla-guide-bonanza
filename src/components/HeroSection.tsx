@@ -8,15 +8,15 @@ interface HeroSectionProps {
 const HeroSection = ({ language }: HeroSectionProps) => {
   const content = {
     en: {
-      title: 'Discover the Beauty of Bangladesh',
-      subtitle: 'Your comprehensive guide to culture, travel, education, and heritage of the beautiful land of rivers and greenery.',
+      title: 'Guide of Every Class',
+      subtitle: 'Your comprehensive education resource for students in Bangladesh from Class 1 to 10.',
       browseGuides: 'Browse Guides',
       downloadPdf: 'Download PDF',
       contact: 'Contact Us'
     },
     bn: {
-      title: 'বাংলাদেশের সৌন্দর্য আবিষ্কার করুন',
-      subtitle: 'নদী ও সবুজের অপরূপ দেশের সংস্কৃতি, ভ্রমণ, শিক্ষা এবং ঐতিহ্যের সম্পূর্ণ গাইড।',
+      title: 'প্রতিটি শ্রেণীর গাইড',
+      subtitle: 'বাংলাদেশের ১ম থেকে ১০ম শ্রেণী পর্যন্ত শিক্ষার্থীদের জন্য আপনার সম্পূর্ণ শিক্ষামূলক সংস্থান।',
       browseGuides: 'গাইড ব্রাউজ করুন',
       downloadPdf: 'পিডিএফ ডাউনলোড',
       contact: 'যোগাযোগ করুন'

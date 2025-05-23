@@ -1,5 +1,5 @@
 
-import { GraduationCap, MapPin, Palette, Clock, Building, Users } from 'lucide-react';
+import { GraduationCap, BookOpen, Book } from 'lucide-react';
 
 interface CategoriesSectionProps {
   language: 'en' | 'bn';
@@ -8,76 +8,116 @@ interface CategoriesSectionProps {
 const CategoriesSection = ({ language }: CategoriesSectionProps) => {
   const content = {
     en: {
-      title: 'Explore Bangladesh',
-      subtitle: 'Discover everything you need to know about Bangladesh',
-      comingSoon: 'Coming Soon',
-      categories: [
+      title: 'Class Guides',
+      subtitle: 'Find study materials for every class from 1 to 10',
+      comingSoon: 'Explore',
+      classes: [
         {
-          title: 'Education',
-          description: 'Universities, schools, and learning opportunities across Bangladesh',
+          title: 'Class 1',
+          description: 'Study guides and materials for Class 1 students',
+          icon: BookOpen
+        },
+        {
+          title: 'Class 2',
+          description: 'Study guides and materials for Class 2 students',
+          icon: BookOpen
+        },
+        {
+          title: 'Class 3',
+          description: 'Study guides and materials for Class 3 students',
+          icon: BookOpen
+        },
+        {
+          title: 'Class 4',
+          description: 'Study guides and materials for Class 4 students',
+          icon: Book
+        },
+        {
+          title: 'Class 5',
+          description: 'Study guides and materials for Class 5 students',
+          icon: Book
+        },
+        {
+          title: 'Class 6',
+          description: 'Study guides and materials for Class 6 students',
+          icon: Book
+        },
+        {
+          title: 'Class 7',
+          description: 'Study guides and materials for Class 7 students',
           icon: GraduationCap
         },
         {
-          title: 'Travel & Tourism',
-          description: 'Beautiful destinations, travel tips, and hidden gems to explore',
-          icon: MapPin
+          title: 'Class 8',
+          description: 'Study guides and materials for Class 8 students',
+          icon: GraduationCap
         },
         {
-          title: 'Culture & Arts',
-          description: 'Rich cultural heritage, traditional arts, music, and festivals',
-          icon: Palette
+          title: 'Class 9',
+          description: 'Study guides and materials for Class 9 students',
+          icon: GraduationCap
         },
         {
-          title: 'History',
-          description: 'Ancient civilizations, liberation war, and historical landmarks',
-          icon: Clock
-        },
-        {
-          title: 'Government',
-          description: 'Government services, policies, and administrative information',
-          icon: Building
-        },
-        {
-          title: 'Society',
-          description: 'Social customs, traditions, and community life in Bangladesh',
-          icon: Users
+          title: 'Class 10',
+          description: 'Study guides and materials for Class 10 students',
+          icon: GraduationCap
         }
       ]
     },
     bn: {
-      title: 'বাংলাদেশ অন্বেষণ করুন',
-      subtitle: 'বাংলাদেশ সম্পর্কে যা জানা প্রয়োজন সব কিছু আবিষ্কার করুন',
-      comingSoon: 'শীঘ্রই আসছে',
-      categories: [
+      title: 'শ্রেণী গাইডস',
+      subtitle: '১ম থেকে ১০ম শ্রেণী পর্যন্ত প্রতিটি শ্রেণীর জন্য অধ্যয়ন সামগ্রী খুঁজুন',
+      comingSoon: 'অন্বেষণ করুন',
+      classes: [
         {
-          title: 'শিক্ষা',
-          description: 'বাংলাদেশ জুড়ে বিশ্ববিদ্যালয়, স্কুল এবং শেখার সুযোগ',
+          title: '১ম শ্রেণী',
+          description: '১ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: BookOpen
+        },
+        {
+          title: '২য় শ্রেণী',
+          description: '২য় শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: BookOpen
+        },
+        {
+          title: '৩য় শ্রেণী',
+          description: '৩য় শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: BookOpen
+        },
+        {
+          title: '৪র্থ শ্রেণী',
+          description: '৪র্থ শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: Book
+        },
+        {
+          title: '৫ম শ্রেণী',
+          description: '৫ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: Book
+        },
+        {
+          title: '৬ষ্ঠ শ্রেণী',
+          description: '৬ষ্ঠ শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: Book
+        },
+        {
+          title: '৭ম শ্রেণী',
+          description: '৭ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
           icon: GraduationCap
         },
         {
-          title: 'ভ্রমণ ও পর্যটন',
-          description: 'সুন্দর গন্তব্য, ভ্রমণের টিপস এবং অন্বেষণের জন্য লুকানো রত্ন',
-          icon: MapPin
+          title: '৮ম শ্রেণী',
+          description: '৮ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: GraduationCap
         },
         {
-          title: 'সংস্কৃতি ও শিল্প',
-          description: 'সমৃদ্ধ সাংস্কৃতিক ঐতিহ্য, ঐতিহ্যবাহী শিল্প, সঙ্গীত এবং উৎসব',
-          icon: Palette
+          title: '৯ম শ্রেণী',
+          description: '৯ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: GraduationCap
         },
         {
-          title: 'ইতিহাস',
-          description: 'প্রাচীন সভ্যতা, মুক্তিযুদ্ধ এবং ঐতিহাসিক নিদর্শন',
-          icon: Clock
-        },
-        {
-          title: 'সরকার',
-          description: 'সরকারি সেবা, নীতিমালা এবং প্রশাসনিক তথ্য',
-          icon: Building
-        },
-        {
-          title: 'সমাজ',
-          description: 'সামাজিক রীতিনীতি, ঐতিহ্য এবং বাংলাদেশের সামাজিক জীবন',
-          icon: Users
+          title: '১০ম শ্রেণী',
+          description: '১০ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          icon: GraduationCap
         }
       ]
     }
@@ -97,9 +137,9 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {t.categories.map((category, index) => {
-            const IconComponent = category.icon;
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+          {t.classes.map((classItem, index) => {
+            const IconComponent = classItem.icon;
             return (
               <div
                 key={index}
@@ -111,11 +151,11 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
                 </div>
                 
                 <h3 className={`text-xl font-bold text-gray-800 mb-3 ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
-                  {category.title}
+                  {classItem.title}
                 </h3>
                 
                 <p className={`text-gray-600 mb-6 leading-relaxed ${language === 'bn' ? 'font-bengali text-sm' : 'font-english'}`}>
-                  {category.description}
+                  {classItem.description}
                 </p>
                 
                 <div className="flex items-center justify-between">
