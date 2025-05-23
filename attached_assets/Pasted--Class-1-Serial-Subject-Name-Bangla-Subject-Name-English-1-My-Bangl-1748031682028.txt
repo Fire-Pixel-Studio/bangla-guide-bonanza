@@ -1,0 +1,161 @@
+📘 Class 1 (১ম শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	আমার বাংলা বই	My Bangla Book
+2	ইংরেজি ফর টুডে	English for Today
+3	প্রাথমিক গণিত	Primary Mathematics
+📗 Class 2 (২য় শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	আমার বাংলা বই	My Bangla Book
+2	ইংরেজি ফর টুডে	English for Today
+3	প্রাথমিক গণিত	Primary Mathematics
+📙 Class 3 (৩য় শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	আমার বাংলা বই	My Bangla Book
+2	ইংরেজি ফর টুডে	English for Today
+3	প্রাথমিক গণিত	Primary Mathematics
+4	প্রাথমিক বিজ্ঞান	Primary Science
+5	বাংলাদেশ ও বিশ্বপরিচয়	Bangladesh and Global Studies
+6	ইসলাম ও নৈতিক শিক্ষা	Islam and Moral Education
+7	হিন্দুধর্ম ও নৈতিক শিক্ষা	Hindu Religion and Moral Education
+8	বৌদ্ধধর্ম ও নৈতিক শিক্ষা	Buddhist Religion and Moral Education
+9	খ্রিস্টধর্ম ও নৈতিক শিক্ষা	Christian Religion and Moral Education
+📕 Class 4 (৪র্থ শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	আমার বাংলা বই	My Bangla Book
+2	ইংরেজি ফর টুডে	English for Today
+3	প্রাথমিক গণিত	Primary Mathematics
+4	প্রাথমিক বিজ্ঞান	Primary Science
+5	বাংলাদেশ ও বিশ্বপরিচয়	Bangladesh and Global Studies
+6	ইসলাম ও নৈতিক শিক্ষা	Islam and Moral Education
+7	হিন্দুধর্ম ও নৈতিক শিক্ষা	Hindu Religion and Moral Education
+8	বৌদ্ধধর্ম ও নৈতিক শিক্ষা	Buddhist Religion and Moral Education
+9	খ্রিস্টধর্ম ও নৈতিক শিক্ষা	Christian Religion and Moral Education
+📒 Class 5 (৫ম শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	আমার বাংলা বই	My Bangla Book
+2	ইংরেজি ফর টুডে	English for Today
+3	প্রাথমিক গণিত	Primary Mathematics
+4	প্রাথমিক বিজ্ঞান	Primary Science
+5	বাংলাদেশ ও বিশ্বপরিচয়	Bangladesh and Global Studies
+6	ইসলাম ও নৈতিক শিক্ষা	Islam and Moral Education
+7	হিন্দুধর্ম ও নৈতিক শিক্ষা	Hindu Religion and Moral Education
+8	বৌদ্ধধর্ম ও নৈতিক শিক্ষা	Buddhist Religion and Moral Education
+9	খ্রিস্টধর্ম ও নৈতিক শিক্ষা	Christian Religion and Moral Education
+📚 Class 6 (৬ষ্ঠ শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	চারুপাঠ	Charupath
+2	আনন্দপাঠ	Anandapath
+3	বাংলা ব্যাকরণ ও নির্মিতি	Bangla Grammar and Composition
+4	ইংরেজি ফর টুডে	English for Today
+5	ইংরেজি ব্যাকরণ ও নির্মিতি	English Grammar and Composition
+6	গণিত	Mathematics
+7	তথ্য ও যোগাযোগ প্রযুক্তি	Information and Communication Technology
+8	বাংলাদেশ ও বিশ্বপরিচয়	Bangladesh and Global Studies
+9	বিজ্ঞান	Science
+10	শারীরিক শিক্ষা ও স্বাস্থ্য	Physical Education and Health
+11	কর্ম ও জীবনমুখী শিক্ষা	Work and Life Oriented Education
+12	কৃষিশিক্ষা	Agriculture Studies
+13	গার্হস্থ্যবিজ্ঞান	Home Science
+14	চারু ও কারুকলা	Arts and Crafts
+15	ইসলাম শিক্ষা	Islamic Studies
+16	হিন্দুধর্ম শিক্ষা	Hindu Religion Studies
+17	খ্রীষ্টধর্ম শিক্ষা	Christian Religion Studies
+18	বৌদ্ধধর্ম শিক্ষা	Buddhist Religion Studies
+19	সচিত্র আরবি পাঠ	Illustrated Arabic Reading
+20	সংস্কৃত	Sanskrit
+21	পালি	Pali
+22	সংগীত	Music
+23	ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি	Language and Culture of Minority Ethnic Groups
+📚 Class 7 (৭ম শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	সপ্তবর্ণা	Saptabarna
+2	আনন্দপাঠ	Anandapath
+3	বাংলা ব্যাকরণ ও নির্মিতি	Bangla Grammar and Composition
+4	ইংরেজি ফর টুডে	English for Today
+5	ইংরেজি ব্যাকরণ ও নির্মিতি	English Grammar and Composition
+6	গণিত	Mathematics
+7	তথ্য ও যোগাযোগ প্রযুক্তি	Information and Communication Technology
+8	বাংলাদেশ ও বিশ্বপরিচয়	Bangladesh and Global Studies
+9	বিজ্ঞান	Science
+10	শারীরিক শিক্ষা ও স্বাস্থ্য	Physical Education and Health
+11	কর্ম ও জীবনমুখী শিক্ষা	Work and Life Oriented Education
+12	কৃষিশিক্ষা	Agriculture Studies
+13	গার্হস্থ্যবিজ্ঞান	Home Science
+14	চারু ও কারুকলা	Arts and Crafts
+15	ইসলাম শিক্ষা	Islamic Studies
+16	হিন্দুধর্ম শিক্ষা	Hindu Religion Studies
+17	খ্রীষ্টধর্ম শিক্ষা	Christian Religion Studies
+18	বৌদ্ধধর্ম শিক্ষা	Buddhist Religion Studies
+19	সহজ আরবি পাঠ	Easy Arabic Reading
+20	সংস্কৃত	Sanskrit
+21	পালি	Pali
+22	সংগীত	Music
+23	ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি	Language and Culture of Minority Ethnic Groups
+📚 Class 8 (৮ম শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	সাহিত্য-কণিকা	Sahitya-Kanika
+2	আনন্দপাঠ	Anandapath
+3	বাংলা ব্যাকরণ ও নির্মিতি	Bangla Grammar and Composition
+4	ইংরেজি ফর টুডে	English for Today
+5	ইংরেজি ব্যাকরণ ও নির্মিতি	English Grammar and Composition
+6	গণিত	Mathematics
+7	তথ্য ও যোগাযোগ প্রযুক্তি	Information and Communication Technology
+8	বাংলাদেশ ও বিশ্বপরিচয়	Bangladesh and Global Studies
+9	বিজ্ঞান	Science
+10	শারীরিক শিক্ষা ও স্বাস্থ্য	Physical Education and Health
+11	কর্ম ও জীবনমুখী শিক্ষা	Work and Life Oriented Education
+12	কৃষিশিক্ষা	Agriculture Studies
+13	গার্হস্থ্যবিজ্ঞান	Home Science
+14	চারু ও কারুকলা	Arts and Crafts
+15	ইসলাম শিক্ষা	Islamic Studies
+16	হিন্দুধর্ম শিক্ষা	Hindu Religion Studies
+17	খ্রীষ্টধর্ম শিক্ষা	Christian Religion Studies
+18	বৌদ্ধধর্ম শিক্ষা	Buddhist Religion Studies
+19	সহজ আরবি পাঠ	Easy Arabic Reading
+20	সংস্কৃত	Sanskrit
+21	পালি	Pali
+22	সংগীত	Music
+📚 Class 9-10 (৯ম-১০ম শ্রেণি)
+
+Serial	Subject Name (Bangla)	Subject Name (English)
+1	বাংলা সাহিত্য	Bangla Literature
+2	বাংলা সহপাঠ	Bangla Sahopath
+3	বাংলা ভাষার ব্যাকরণ ও নির্মিতি	Bangla Language Grammar and Composition
+4	ইংরেজি ফর টুডে	English for Today
+5	ইংরেজি ব্যাকরণ ও নির্মিতি	English Grammar and Composition
+6	গণিত	Mathematics
+7	তথ্য ও যোগাযোগ প্রযুক্তি	Information and Communication Technology
+8	বিজ্ঞান	Science
+9	পদার্থবিজ্ঞান	Physics
+10	রসায়ন	Chemistry
+11	জীববিজ্ঞান	Biology
+12	উচ্চতর গণিত	Higher Mathematics
+13	ভূগোল ও পরিবেশ	Geography and Environment
+14	অর্থনীতি	Economics
+15	কৃষিশিক্ষা	Agriculture Studies
+16	গার্হস্থ্যবিজ্ঞান	Home Science
+17	পৌরনীতি ও নাগরিকতা	Civics and Citizenship
+18	হিসাববিজ্ঞান	Accounting
+19	ফিন্যান্স ও ব্যাংকিং	Finance and Banking
+20	ব্যবসায় উদ্যোগ	Business Entrepreneurship
+21	ইসলাম শিক্ষা	Islamic Studies
+22	হিন্দুধর্ম শিক্ষা	Hindu Religion Studies
+23	বৌদ্ধধর্ম শিক্ষা	Buddhist Religion Studies
+24	খ্রীষ্টধর্ম শিক্ষা	Christian Religion Studies
+25	ক্যারিয়ার শিক্ষা	Career Education
+26	বাংলাদেশ ও বিশ্বপরিচয়	Bangladesh and Global Studies
+27	চারু ও কারুকলা	Arts and Crafts
+28	বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা	History of Bangladesh and World Civilization
+29	শারীরিক শিক্ষা, স্বাস্থ্যবিজ্ঞান ও খেলাধুলা	Physical Education, Health Science and Sports
+30	আরবি	Arabic
+31	সংস্কৃত	Sanskrit
+32	পালি	Pali
+33	সংগীত	Music
