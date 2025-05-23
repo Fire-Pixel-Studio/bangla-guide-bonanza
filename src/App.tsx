@@ -3,7 +3,8 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ThemeProvider } from "./contexts/ThemeContext";
+import { ThemeProvider } from "@/contexts/ThemeContext";
+import Background from "@/components/Background";
 import { BookmarkProvider } from './contexts/BookmarkContext';
 import Index from "./pages/Index";
 import ClassDetails from "./pages/ClassDetails";
@@ -14,8 +15,8 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider>
-      <BookmarkProvider>
-        <TooltipProvider>
+      <div className="min-h-screen bg-background">
+        <Background />
           <Toaster />
           <Sonner />
           <BrowserRouter>
@@ -26,9 +27,7 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
-        </TooltipProvider>
-      </BookmarkProvider>
-    </ThemeProvider>
+        </ThemeProvider>
   </QueryClientProvider>
 );
 

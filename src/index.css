@@ -14,7 +14,7 @@
   }
 }
 
-.animated-dots {
+.app-background {
   position: fixed;
   top: 0;
   left: 0;
@@ -25,25 +25,22 @@
   pointer-events: none;
 }
 
-.animated-dots::before {
-  content: '';
+.star {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#006A4E 2px, transparent 2px);
-  background-size: 50px 50px;
-  animation: float 15s infinite linear;
+  width: 2px;
+  height: 2px;
+  background: #006A4E;
+  border-radius: 50%;
+  animation: twinkle 1s infinite alternate;
 }
 
-.animated-dots::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(#006A4E 1px, transparent 1px);
-  background-size: 40px 40px;
-  animation: float 12s infinite linear reverse;
-  opacity: 0.5;
+.dark .star {
+  background: #00D39E;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.2; transform: scale(1); }
+  100% { opacity: 0.8; transform: scale(1.2); }
 }
 
 .dark .animated-dots::before,

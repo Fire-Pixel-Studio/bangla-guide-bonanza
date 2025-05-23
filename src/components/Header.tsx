@@ -75,7 +75,6 @@ const Header = ({ language, onLanguageChange }: HeaderProps) => {
               <ThemeToggle />
             </div>
           </div>
-          <div className="animated-dots"></div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
