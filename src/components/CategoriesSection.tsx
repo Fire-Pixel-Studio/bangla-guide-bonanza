@@ -1,5 +1,6 @@
 
 import { GraduationCap, BookOpen, Book } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface CategoriesSectionProps {
   language: 'en' | 'bn';
@@ -140,8 +141,11 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
           {t.classes.map((classItem, index) => {
             const IconComponent = classItem.icon;
+            const classId = `class${index + 1}`;
+            
             return (
-              <div
+              <Link 
+                to={`/class/${classId}`}
                 key={index}
                 className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-gray-100 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
@@ -166,7 +170,7 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
                     <span className="text-bangladesh-green group-hover:text-white">→</span>
                   </div>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
