@@ -1,14 +1,14 @@
 
-import useSound from 'use-sound';
+import { useCallback } from 'react';
 
 const useButtonSound = () => {
-  const [playClick] = useSound('/click.mp3', { volume: 0.5 });
-  
-  const playButtonSound = () => {
-    playClick();
-  };
+  const playSound = useCallback(() => {
+    const audio = new Audio('/click.mp3');
+    audio.volume = 0.2;
+    audio.play().catch(() => {});
+  }, []);
 
-  return playButtonSound;
+  return playSound;
 };
 
 export default useButtonSound;

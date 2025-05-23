@@ -32,7 +32,7 @@ const Header = ({ language, onLanguageChange }: HeaderProps) => {
   const t = content[language];
 
   return (
-    <header className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 transition-colors duration-200">
+    <header className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-lg sticky top-0 z-50 transition-colors duration-200 border-b border-green-200 dark:border-gray-700">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
