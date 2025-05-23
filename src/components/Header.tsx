@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
+import BookmarksDialog from './BookmarksDialog';
 
 interface HeaderProps {
   language: 'en' | 'bn';
@@ -70,9 +71,11 @@ const Header = ({ language, onLanguageChange }: HeaderProps) => {
               </button>
               
               {/* Theme Toggle */}
+              <BookmarksDialog language={language} />
               <ThemeToggle />
             </div>
           </div>
+          <div className="animated-dots"></div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
