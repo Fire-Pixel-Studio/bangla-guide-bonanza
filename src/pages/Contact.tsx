@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { useButtonSound } from '../hooks/useButtonSound';
+import useButtonSound from '../hooks/useButtonSound';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';

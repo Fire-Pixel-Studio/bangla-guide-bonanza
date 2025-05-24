@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import classesData from '../data/classesData.json';
@@ -10,7 +9,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
 import { useBookmark } from '../contexts/BookmarkContext';
-import { useButtonSound } from '../hooks/useButtonSound';
+import useButtonSound from '../hooks/useButtonSound';
 
 interface ClassDetails {
   id: string;
