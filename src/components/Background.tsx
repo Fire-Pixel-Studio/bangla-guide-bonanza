@@ -21,8 +21,8 @@ const Background = () => {
             top: `${Math.random() * 100}%`,
             animationDelay: `${Math.random() * 10}s`,
             animationDuration: `${15 + Math.random() * 10}s`,
-            width: `${3 + Math.random() * 6}px`,
-            height: `${3 + Math.random() * 6}px`,
+            width: `${8 + Math.random() * 12}px`,
+            height: `${8 + Math.random() * 12}px`,
             color: i % 5 === 0 ? '#A855F7' : 
                    i % 5 === 1 ? '#10B981' : 
                    i % 5 === 2 ? '#000000' : 
