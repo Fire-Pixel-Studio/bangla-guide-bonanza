@@ -34,6 +34,39 @@
         }
       ]
     },
+        {
+      "id": "class1",
+      "name": {
+        "en": "Class 1",
+        "bn": "১ম শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla",
+          "name": {
+            "en": "My Bangla Book",
+            "bn": "আমার বাংলা বই"
+          },
+          "pdf": "/pdfs/class1/bangla.pdf"
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          },
+          "pdf": "/pdfs/class1/english.pdf"
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Primary Mathematics",
+            "bn": "প্রাথমিক গণিত"
+          },
+          "pdf": "/pdfs/class1/math.pdf"
+        }
+      ]
+    },
     {
       "id": "class2",
       "name": {
