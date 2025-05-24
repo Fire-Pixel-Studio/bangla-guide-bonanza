@@ -35,9 +35,42 @@
       ]
     },
     {
-      "id": "class23",
+      "id": "class2",
       "name": {
         "en": "Class 2",
+        "bn": "২য় শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "bangla",
+          "name": {
+            "en": "My Bangla Book",
+            "bn": "আমার বাংলা বই"
+          },
+          "pdf": "/pdfs/class2/bangla.pdf"
+        },
+        {
+          "id": "english",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          },
+          "pdf": "/pdfs/class2/english.pdf"
+        },
+        {
+          "id": "math",
+          "name": {
+            "en": "Primary Mathematics",
+            "bn": "প্রাথমিক গণিত"
+          },
+          "pdf": "/pdfs/class2/math.pdf"
+        }
+      ]
+    },
+        {
+      "id": "class23",
+      "name": {
+        "en": "Class 23",
         "bn": "২য় শ্রেণি"
       },
       "subjects": [
