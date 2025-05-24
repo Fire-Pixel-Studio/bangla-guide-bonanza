@@ -1,3 +1,4 @@
+
 import { GraduationCap, BookOpen, Book } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -53,13 +54,8 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
           icon: GraduationCap
         },
         {
-          title: 'Class 9',
-          description: 'Study guides and materials for Class 9 students',
-          icon: GraduationCap
-        },
-        {
-          title: 'Class 10',
-          description: 'Study guides and materials for Class 10 students',
+          title: 'Class 9-10',
+          description: 'Study guides and materials for Class 9-10 students',
           icon: GraduationCap
         }
       ]
@@ -110,13 +106,8 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
           icon: GraduationCap
         },
         {
-          title: '৯ম শ্রেণী',
-          description: '৯ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
-          icon: GraduationCap
-        },
-        {
-          title: '১০ম শ্রেণী',
-          description: '১০ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
+          title: '৯ম-১০ম শ্রেণী',
+          description: '৯ম-১০ম শ্রেণীর শিক্ষার্থীদের জন্য অধ্যয়ন গাইড এবং উপকরণ',
           icon: GraduationCap
         }
       ]
@@ -125,12 +116,45 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
 
   const t = content[language];
 
+  const getClassId = (index: number) => {
+    if (index < 8) {
+      return `class${index + 1}`;
+    } else {
+      return 'class9-10';
+    }
+  };
+
   return (
-    <section id="guides" className="relative min-h-screen flex items-center">
+    <section id="guides" className="relative min-h-screen flex items-center overflow-hidden">
+      {/* Decorative Star Dots Background */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Generate random star dots */}
+        {[...Array(50)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute animate-pulse"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animationDuration: `${2 + Math.random() * 3}s`
+            }}
+          >
+            <div 
+              className="rounded-full bg-bangladesh-green/20 dark:bg-bangladesh-green-light/30"
+              style={{
+                width: `${2 + Math.random() * 4}px`,
+                height: `${2 + Math.random() * 4}px`,
+              }}
+            />
+          </div>
+        ))}
+      </div>
+
       {/* Background with Bangladesh landscape pattern */}
       <div className="absolute inset-0 dark:bg-gradient-to-br dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 bg-gradient-to-br from-bangladesh-green/5 via-green-50 to-white">
         <div className="absolute inset-0 opacity-10">
-          <div className="w-full h-full dark:bg-[url('data:image/svg+xml,%3Csvg width=%2760%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23FFFFFF%22 fill-opacity=%220.1%22%3E%3Cpath d=%22M30 30c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20zm0 0c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] bg-[url('data:image/svg+xml,%3Csvg width=%2760%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23006A4E%22 fill-opacity=%220.1%22%3E%3Cpath d=%22M30 30c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20zm0 0c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] bg-repeat"></div>
+          <div className="w-full h-full dark:bg-[url('data:image/svg+xml,%3Csvg width=%2760%22 height=%2760%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23FFFFFF%22 fill-opacity=%220.1%22%3E%3Cpath d=%22M30 30c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20zm0 0c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] bg-[url('data:image/svg+xml,%3Csvg width=%2760%22 height=%2760%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23006A4E%22 fill-opacity=%220.1%22%3E%3Cpath d=%22M30 30c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20zm0 0c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20z%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] bg-repeat"></div>
         </div>
       </div>
 
@@ -144,18 +168,29 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
           {t.classes.map((classItem, index) => {
             const IconComponent = classItem.icon;
-            const classId = `class${index + 1}`;
+            const classId = getClassId(index);
             
             return (
               <Link 
                 to={`/class/${classId}`}
                 key={index}
-                className="group bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-gray-100 dark:border-gray-700 animate-fade-in"
+                className="group bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-gray-100 dark:border-gray-700 animate-fade-in relative overflow-hidden"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
+                {/* Card decorative dots */}
+                <div className="absolute top-2 right-2 opacity-20">
+                  {[...Array(3)].map((_, i) => (
+                    <div
+                      key={i}
+                      className="inline-block w-1 h-1 bg-bangladesh-green dark:bg-bangladesh-green-light rounded-full mr-1 animate-pulse"
+                      style={{ animationDelay: `${i * 0.2}s` }}
+                    />
+                  ))}
+                </div>
+
                 <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-bangladesh-green to-bangladesh-green-light rounded-xl mb-6 group-hover:scale-110 transition-transform duration-300">
                   <IconComponent className="text-white" size={28} />
                 </div>

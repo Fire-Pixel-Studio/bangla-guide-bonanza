@@ -276,6 +276,525 @@
           }
         }
       ]
+    },
+    {
+      "id": "class6",
+      "name": {
+        "en": "Class 6",
+        "bn": "৬ষ্ঠ শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "charupath",
+          "name": {
+            "en": "Charupath",
+            "bn": "চারুপাঠ"
+          }
+        },
+        {
+          "id": "anandapath",
+          "name": {
+            "en": "Anandapath",
+            "bn": "আনন্দপাঠ"
+          }
+        },
+        {
+          "id": "bangla_grammar",
+          "name": {
+            "en": "Bangla Grammar and Composition",
+            "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
+          "id": "english_today",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "english_grammar",
+          "name": {
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
+          "id": "mathematics",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "physical_ed",
+          "name": {
+            "en": "Physical Education and Health",
+            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
+          }
+        },
+        {
+          "id": "work_life",
+          "name": {
+            "en": "Work and Life Oriented Education",
+            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
+          }
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          }
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          }
+        },
+        {
+          "id": "arts_crafts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          }
+        },
+        {
+          "id": "islamic_studies",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu_studies",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "christian_studies",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist_studies",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "arabic",
+          "name": {
+            "en": "Illustrated Arabic Reading",
+            "bn": "সচিত্র আরবি পাঠ"
+          }
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          }
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          }
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
+          }
+        },
+        {
+          "id": "minority_culture",
+          "name": {
+            "en": "Language and Culture of Minority Ethnic Groups",
+            "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class7",
+      "name": {
+        "en": "Class 7",
+        "bn": "৭ম শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "saptabarna",
+          "name": {
+            "en": "Saptabarna",
+            "bn": "সপ্তবর্ণা"
+          }
+        },
+        {
+          "id": "anandapath",
+          "name": {
+            "en": "Anandapath",
+            "bn": "আনন্দপাঠ"
+          }
+        },
+        {
+          "id": "bangla_grammar",
+          "name": {
+            "en": "Bangla Grammar and Composition",
+            "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
+          "id": "english_today",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "english_grammar",
+          "name": {
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
+          "id": "mathematics",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "physical_ed",
+          "name": {
+            "en": "Physical Education and Health",
+            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
+          }
+        },
+        {
+          "id": "work_life",
+          "name": {
+            "en": "Work and Life Oriented Education",
+            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
+          }
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          }
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          }
+        },
+        {
+          "id": "arts_crafts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          }
+        },
+        {
+          "id": "islamic_studies",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu_studies",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "christian_studies",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist_studies",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "easy_arabic",
+          "name": {
+            "en": "Easy Arabic Reading",
+            "bn": "সহজ আরবি পাঠ"
+          }
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          }
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          }
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
+          }
+        },
+        {
+          "id": "minority_culture",
+          "name": {
+            "en": "Language and Culture of Minority Ethnic Groups",
+            "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class8",
+      "name": {
+        "en": "Class 8",
+        "bn": "৮ম শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "sahitya_kanika",
+          "name": {
+            "en": "Sahitya-Kanika",
+            "bn": "সাহিত্য-কণিকা"
+          }
+        },
+        {
+          "id": "anandapath",
+          "name": {
+            "en": "Anandapath",
+            "bn": "আনন্দপাঠ"
+          }
+        },
+        {
+          "id": "bangla_grammar",
+          "name": {
+            "en": "Bangla Grammar and Composition",
+            "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
+          "id": "english_today",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "english_grammar",
+          "name": {
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
+          "id": "mathematics",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
+        },
+        {
+          "id": "physical_ed",
+          "name": {
+            "en": "Physical Education and Health",
+            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
+          }
+        },
+        {
+          "id": "work_life",
+          "name": {
+            "en": "Work and Life Oriented Education",
+            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
+          }
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          }
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          }
+        },
+        {
+          "id": "arts_crafts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          }
+        },
+        {
+          "id": "islamic_studies",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          }
+        },
+        {
+          "id": "hindu_studies",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "christian_studies",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "buddhist_studies",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          }
+        },
+        {
+          "id": "easy_arabic",
+          "name": {
+            "en": "Easy Arabic Reading",
+            "bn": "সহজ আরবি পাঠ"
+          }
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          }
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          }
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
+          }
+        }
+      ]
+    },
+    {
+      "id": "class9-10",
+      "name": {
+        "en": "Class 9-10",
+        "bn": "৯ম-১০ম শ্রেণি"
+      },
+      "subjects": [
+        {
+          "id": "coming_soon",
+          "name": {
+            "en": "Coming Soon",
+            "bn": "শীঘ্রই আসছে"
+          }
+        }
+      ]
     }
   ]
 }
