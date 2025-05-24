@@ -9,6 +9,7 @@ import Background from "@/components/Background";
 import { BookmarkProvider } from './contexts/BookmarkContext';
 import Index from "./pages/Index";
 import ClassDetails from "./pages/ClassDetails";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
               <Routes>
                 <Route path="/" element={<Index />} />
                 <Route path="/class/:classId" element={<ClassDetails />} />
+                <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </BrowserRouter>

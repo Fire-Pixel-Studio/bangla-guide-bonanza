@@ -13,21 +13,24 @@
           "name": {
             "en": "My Bangla Book",
             "bn": "আমার বাংলা বই"
-          }
+          },
+          "pdf": "/pdfs/class1/bangla.pdf"
         },
         {
           "id": "english",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class1/english.pdf"
         },
         {
           "id": "math",
           "name": {
             "en": "Primary Mathematics",
             "bn": "প্রাথমিক গণিত"
-          }
+          },
+          "pdf": "/pdfs/class1/math.pdf"
         }
       ]
     },
@@ -43,21 +46,24 @@
           "name": {
             "en": "My Bangla Book",
             "bn": "আমার বাংলা বই"
-          }
+          },
+          "pdf": "/pdfs/class2/bangla.pdf"
         },
         {
           "id": "english",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class2/english.pdf"
         },
         {
           "id": "math",
           "name": {
             "en": "Primary Mathematics",
             "bn": "প্রাথমিক গণিত"
-          }
+          },
+          "pdf": "/pdfs/class2/math.pdf"
         }
       ]
     },
@@ -73,63 +79,72 @@
           "name": {
             "en": "My Bangla Book",
             "bn": "আমার বাংলা বই"
-          }
+          },
+          "pdf": "/pdfs/class3/bangla.pdf"
         },
         {
           "id": "english",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class3/english.pdf"
         },
         {
           "id": "math",
           "name": {
             "en": "Primary Mathematics",
             "bn": "প্রাথমিক গণিত"
-          }
+          },
+          "pdf": "/pdfs/class3/math.pdf"
         },
         {
           "id": "science",
           "name": {
             "en": "Primary Science",
             "bn": "প্রাথমিক বিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class3/science.pdf"
         },
         {
           "id": "bgs",
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
+          },
+          "pdf": "/pdfs/class3/bgs.pdf"
         },
         {
           "id": "islam",
           "name": {
             "en": "Islam and Moral Education",
             "bn": "ইসলাম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class3/islam.pdf"
         },
         {
           "id": "hindu",
           "name": {
             "en": "Hindu Religion and Moral Education",
             "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class3/hindu.pdf"
         },
         {
           "id": "buddhist",
           "name": {
             "en": "Buddhist Religion and Moral Education",
             "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class3/buddhist.pdf"
         },
         {
           "id": "christian",
           "name": {
             "en": "Christian Religion and Moral Education",
             "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class3/christian.pdf"
         }
       ]
     },
@@ -145,63 +160,72 @@
           "name": {
             "en": "My Bangla Book",
             "bn": "আমার বাংলা বই"
-          }
+          },
+          "pdf": "/pdfs/class4/bangla.pdf"
         },
         {
           "id": "english",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class4/english.pdf"
         },
         {
           "id": "math",
           "name": {
             "en": "Primary Mathematics",
             "bn": "প্রাথমিক গণিত"
-          }
+          },
+          "pdf": "/pdfs/class4/math.pdf"
         },
         {
           "id": "science",
           "name": {
             "en": "Primary Science",
             "bn": "প্রাথমিক বিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class4/science.pdf"
         },
         {
           "id": "bgs",
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
+          },
+          "pdf": "/pdfs/class4/bgs.pdf"
         },
         {
           "id": "islam",
           "name": {
             "en": "Islam and Moral Education",
             "bn": "ইসলাম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class4/islam.pdf"
         },
         {
           "id": "hindu",
           "name": {
             "en": "Hindu Religion and Moral Education",
             "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class4/hindu.pdf"
         },
         {
           "id": "buddhist",
           "name": {
             "en": "Buddhist Religion and Moral Education",
             "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class4/buddhist.pdf"
         },
         {
           "id": "christian",
           "name": {
             "en": "Christian Religion and Moral Education",
             "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class4/christian.pdf"
         }
       ]
     },
@@ -217,63 +241,72 @@
           "name": {
             "en": "My Bangla Book",
             "bn": "আমার বাংলা বই"
-          }
+          },
+          "pdf": "/pdfs/class5/bangla.pdf"
         },
         {
           "id": "english",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class5/english.pdf"
         },
         {
           "id": "math",
           "name": {
             "en": "Primary Mathematics",
             "bn": "প্রাথমিক গণিত"
-          }
+          },
+          "pdf": "/pdfs/class5/math.pdf"
         },
         {
           "id": "science",
           "name": {
             "en": "Primary Science",
             "bn": "প্রাথমিক বিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class5/science.pdf"
         },
         {
           "id": "bgs",
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
+          },
+          "pdf": "/pdfs/class5/bgs.pdf"
         },
         {
           "id": "islam",
           "name": {
             "en": "Islam and Moral Education",
             "bn": "ইসলাম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class5/islam.pdf"
         },
         {
           "id": "hindu",
           "name": {
             "en": "Hindu Religion and Moral Education",
             "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class5/hindu.pdf"
         },
         {
           "id": "buddhist",
           "name": {
             "en": "Buddhist Religion and Moral Education",
             "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class5/buddhist.pdf"
         },
         {
           "id": "christian",
           "name": {
             "en": "Christian Religion and Moral Education",
             "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class5/christian.pdf"
         }
       ]
     },
@@ -289,161 +322,184 @@
           "name": {
             "en": "Charupath",
             "bn": "চারুপাঠ"
-          }
+          },
+          "pdf": "/pdfs/class6/charupath.pdf"
         },
         {
           "id": "anandapath",
           "name": {
             "en": "Anandapath",
             "bn": "আনন্দপাঠ"
-          }
+          },
+          "pdf": "/pdfs/class6/anandapath.pdf"
         },
         {
           "id": "bangla_grammar",
           "name": {
             "en": "Bangla Grammar and Composition",
             "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
-          }
+          },
+          "pdf": "/pdfs/class6/bangla_grammar.pdf"
         },
         {
           "id": "english_today",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class6/english_today.pdf"
         },
         {
           "id": "english_grammar",
           "name": {
             "en": "English Grammar and Composition",
             "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
-          }
+          },
+          "pdf": "/pdfs/class6/english_grammar.pdf"
         },
         {
           "id": "mathematics",
           "name": {
             "en": "Mathematics",
             "bn": "গণিত"
-          }
+          },
+          "pdf": "/pdfs/class6/mathematics.pdf"
         },
         {
           "id": "ict",
           "name": {
             "en": "Information and Communication Technology",
             "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
-          }
+          },
+          "pdf": "/pdfs/class6/ict.pdf"
         },
         {
           "id": "bgs",
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
+          },
+          "pdf": "/pdfs/class6/bgs.pdf"
         },
         {
           "id": "science",
           "name": {
             "en": "Science",
             "bn": "বিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class6/science.pdf"
         },
         {
           "id": "physical_ed",
           "name": {
             "en": "Physical Education and Health",
             "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
-          }
+          },
+          "pdf": "/pdfs/class6/physical_ed.pdf"
         },
         {
           "id": "work_life",
           "name": {
             "en": "Work and Life Oriented Education",
             "bn": "কর্ম ও জীবনমুখী শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class6/work_life.pdf"
         },
         {
           "id": "agriculture",
           "name": {
             "en": "Agriculture Studies",
             "bn": "কৃষিশিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class6/agriculture.pdf"
         },
         {
           "id": "home_science",
           "name": {
             "en": "Home Science",
             "bn": "গার্হস্থ্যবিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class6/home_science.pdf"
         },
         {
           "id": "arts_crafts",
           "name": {
             "en": "Arts and Crafts",
             "bn": "চারু ও কারুকলা"
-          }
+          },
+          "pdf": "/pdfs/class6/arts_crafts.pdf"
         },
         {
           "id": "islamic_studies",
           "name": {
             "en": "Islamic Studies",
             "bn": "ইসলাম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class6/islamic_studies.pdf"
         },
         {
           "id": "hindu_studies",
           "name": {
             "en": "Hindu Religion Studies",
             "bn": "হিন্দুধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class6/hindu_studies.pdf"
         },
         {
           "id": "christian_studies",
           "name": {
             "en": "Christian Religion Studies",
             "bn": "খ্রীষ্টধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class6/christian_studies.pdf"
         },
         {
           "id": "buddhist_studies",
           "name": {
             "en": "Buddhist Religion Studies",
             "bn": "বৌদ্ধধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class6/buddhist_studies.pdf"
         },
         {
           "id": "arabic",
           "name": {
             "en": "Illustrated Arabic Reading",
             "bn": "সচিত্র আরবি পাঠ"
-          }
+          },
+          "pdf": "/pdfs/class6/arabic.pdf"
         },
         {
           "id": "sanskrit",
           "name": {
             "en": "Sanskrit",
             "bn": "সংস্কৃত"
-          }
+          },
+          "pdf": "/pdfs/class6/sanskrit.pdf"
         },
         {
           "id": "pali",
           "name": {
             "en": "Pali",
             "bn": "পালি"
-          }
+          },
+          "pdf": "/pdfs/class6/pali.pdf"
         },
         {
           "id": "music",
           "name": {
             "en": "Music",
             "bn": "সংগীত"
-          }
+          },
+          "pdf": "/pdfs/class6/music.pdf"
         },
         {
           "id": "minority_culture",
           "name": {
             "en": "Language and Culture of Minority Ethnic Groups",
             "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
-          }
+          },
+          "pdf": "/pdfs/class6/minority_culture.pdf"
         }
       ]
     },
@@ -459,161 +515,184 @@
           "name": {
             "en": "Saptabarna",
             "bn": "সপ্তবর্ণা"
-          }
+          },
+          "pdf": "/pdfs/class7/saptabarna.pdf"
         },
         {
           "id": "anandapath",
           "name": {
             "en": "Anandapath",
             "bn": "আনন্দপাঠ"
-          }
+          },
+          "pdf": "/pdfs/class7/anandapath.pdf"
         },
         {
           "id": "bangla_grammar",
           "name": {
             "en": "Bangla Grammar and Composition",
             "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
-          }
+          },
+          "pdf": "/pdfs/class7/bangla_grammar.pdf"
         },
         {
           "id": "english_today",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class7/english_today.pdf"
         },
         {
           "id": "english_grammar",
           "name": {
             "en": "English Grammar and Composition",
             "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
-          }
+          },
+          "pdf": "/pdfs/class7/english_grammar.pdf"
         },
         {
           "id": "mathematics",
           "name": {
             "en": "Mathematics",
             "bn": "গণিত"
-          }
+          },
+          "pdf": "/pdfs/class7/mathematics.pdf"
         },
         {
           "id": "ict",
           "name": {
             "en": "Information and Communication Technology",
             "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
-          }
+          },
+          "pdf": "/pdfs/class7/ict.pdf"
         },
         {
           "id": "bgs",
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
+          },
+          "pdf": "/pdfs/class7/bgs.pdf"
         },
         {
           "id": "science",
           "name": {
             "en": "Science",
             "bn": "বিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class7/science.pdf"
         },
         {
           "id": "physical_ed",
           "name": {
             "en": "Physical Education and Health",
             "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
-          }
+          },
+          "pdf": "/pdfs/class7/physical_ed.pdf"
         },
         {
           "id": "work_life",
           "name": {
             "en": "Work and Life Oriented Education",
             "bn": "কর্ম ও জীবনমুখী শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class7/work_life.pdf"
         },
         {
           "id": "agriculture",
           "name": {
             "en": "Agriculture Studies",
             "bn": "কৃষিশিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class7/agriculture.pdf"
         },
         {
           "id": "home_science",
           "name": {
             "en": "Home Science",
             "bn": "গার্হস্থ্যবিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class7/home_science.pdf"
         },
         {
           "id": "arts_crafts",
           "name": {
             "en": "Arts and Crafts",
             "bn": "চারু ও কারুকলা"
-          }
+          },
+          "pdf": "/pdfs/class7/arts_crafts.pdf"
         },
         {
           "id": "islamic_studies",
           "name": {
             "en": "Islamic Studies",
             "bn": "ইসলাম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class7/islamic_studies.pdf"
         },
         {
           "id": "hindu_studies",
           "name": {
             "en": "Hindu Religion Studies",
             "bn": "হিন্দুধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class7/hindu_studies.pdf"
         },
         {
           "id": "christian_studies",
           "name": {
             "en": "Christian Religion Studies",
             "bn": "খ্রীষ্টধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class7/christian_studies.pdf"
         },
         {
           "id": "buddhist_studies",
           "name": {
             "en": "Buddhist Religion Studies",
             "bn": "বৌদ্ধধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class7/buddhist_studies.pdf"
         },
         {
           "id": "easy_arabic",
           "name": {
             "en": "Easy Arabic Reading",
             "bn": "সহজ আরবি পাঠ"
-          }
+          },
+          "pdf": "/pdfs/class7/easy_arabic.pdf"
         },
         {
           "id": "sanskrit",
           "name": {
             "en": "Sanskrit",
             "bn": "সংস্কৃত"
-          }
+          },
+          "pdf": "/pdfs/class7/sanskrit.pdf"
         },
         {
           "id": "pali",
           "name": {
             "en": "Pali",
             "bn": "পালি"
-          }
+          },
+          "pdf": "/pdfs/class7/pali.pdf"
         },
         {
           "id": "music",
           "name": {
             "en": "Music",
             "bn": "সংগীত"
-          }
+          },
+          "pdf": "/pdfs/class7/music.pdf"
         },
         {
           "id": "minority_culture",
           "name": {
             "en": "Language and Culture of Minority Ethnic Groups",
             "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
-          }
+          },
+          "pdf": "/pdfs/class7/minority_culture.pdf"
         }
       ]
     },
@@ -629,154 +708,176 @@
           "name": {
             "en": "Sahitya-Kanika",
             "bn": "সাহিত্য-কণিকা"
-          }
+          },
+          "pdf": "/pdfs/class8/sahitya_kanika.pdf"
         },
         {
           "id": "anandapath",
           "name": {
             "en": "Anandapath",
             "bn": "আনন্দপাঠ"
-          }
+          },
+          "pdf": "/pdfs/class8/anandapath.pdf"
         },
         {
           "id": "bangla_grammar",
           "name": {
             "en": "Bangla Grammar and Composition",
             "bn": "বাংলা ব্যাকরণ ও নির্মিতি"
-          }
+          },
+          "pdf": "/pdfs/class8/bangla_grammar.pdf"
         },
         {
           "id": "english_today",
           "name": {
             "en": "English for Today",
             "bn": "ইংরেজি ফর টুডে"
-          }
+          },
+          "pdf": "/pdfs/class8/english_today.pdf"
         },
         {
           "id": "english_grammar",
           "name": {
             "en": "English Grammar and Composition",
             "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
-          }
+          },
+          "pdf": "/pdfs/class8/english_grammar.pdf"
         },
         {
           "id": "mathematics",
           "name": {
             "en": "Mathematics",
             "bn": "গণিত"
-          }
+          },
+          "pdf": "/pdfs/class8/mathematics.pdf"
         },
         {
           "id": "ict",
           "name": {
             "en": "Information and Communication Technology",
             "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
-          }
+          },
+          "pdf": "/pdfs/class8/ict.pdf"
         },
         {
           "id": "bgs",
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
+          },
+          "pdf": "/pdfs/class8/bgs.pdf"
         },
         {
           "id": "science",
           "name": {
             "en": "Science",
             "bn": "বিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class8/science.pdf"
         },
         {
           "id": "physical_ed",
           "name": {
             "en": "Physical Education and Health",
             "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
-          }
+          },
+          "pdf": "/pdfs/class8/physical_ed.pdf"
         },
         {
           "id": "work_life",
           "name": {
             "en": "Work and Life Oriented Education",
             "bn": "কর্ম ও জীবনমুখী শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class8/work_life.pdf"
         },
         {
           "id": "agriculture",
           "name": {
             "en": "Agriculture Studies",
             "bn": "কৃষিশিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class8/agriculture.pdf"
         },
         {
           "id": "home_science",
           "name": {
             "en": "Home Science",
             "bn": "গার্হস্থ্যবিজ্ঞান"
-          }
+          },
+          "pdf": "/pdfs/class8/home_science.pdf"
         },
         {
           "id": "arts_crafts",
           "name": {
             "en": "Arts and Crafts",
             "bn": "চারু ও কারুকলা"
-          }
+          },
+          "pdf": "/pdfs/class8/arts_crafts.pdf"
         },
         {
           "id": "islamic_studies",
           "name": {
             "en": "Islamic Studies",
             "bn": "ইসলাম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class8/islamic_studies.pdf"
         },
         {
           "id": "hindu_studies",
           "name": {
             "en": "Hindu Religion Studies",
             "bn": "হিন্দুধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class8/hindu_studies.pdf"
         },
         {
           "id": "christian_studies",
           "name": {
             "en": "Christian Religion Studies",
             "bn": "খ্রীষ্টধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class8/christian_studies.pdf"
         },
         {
           "id": "buddhist_studies",
           "name": {
             "en": "Buddhist Religion Studies",
             "bn": "বৌদ্ধধর্ম শিক্ষা"
-          }
+          },
+          "pdf": "/pdfs/class8/buddhist_studies.pdf"
         },
         {
           "id": "easy_arabic",
           "name": {
             "en": "Easy Arabic Reading",
             "bn": "সহজ আরবি পাঠ"
-          }
+          },
+          "pdf": "/pdfs/class8/easy_arabic.pdf"
         },
         {
           "id": "sanskrit",
           "name": {
             "en": "Sanskrit",
             "bn": "সংস্কৃত"
-          }
+          },
+          "pdf": "/pdfs/class8/sanskrit.pdf"
         },
         {
           "id": "pali",
           "name": {
             "en": "Pali",
             "bn": "পালি"
-          }
+          },
+          "pdf": "/pdfs/class8/pali.pdf"
         },
         {
           "id": "music",
           "name": {
             "en": "Music",
             "bn": "সংগীত"
-          }
+          },
+          "pdf": "/pdfs/class8/music.pdf"
         }
       ]
     },
@@ -788,11 +889,268 @@
       },
       "subjects": [
         {
-          "id": "coming_soon",
+          "id": "bangla_literature",
           "name": {
-            "en": "Coming Soon",
-            "bn": "শীঘ্রই আসছে"
-          }
+            "en": "Bangla Literature",
+            "bn": "বাংলা সাহিত্য"
+          },
+          "pdf": "/pdfs/class9-10/bangla_literature.pdf"
+        },
+        {
+          "id": "bangla_sahopath",
+          "name": {
+            "en": "Bangla Sahopath",
+            "bn": "বাংলা সহপাঠ"
+          },
+          "pdf": "/pdfs/class9-10/bangla_sahopath.pdf"
+        },
+        {
+          "id": "bangla_grammar",
+          "name": {
+            "en": "Bangla Language Grammar and Composition",
+            "bn": "বাংলা ভাষার ব্যাকরণ ও নির্মিতি"
+          },
+          "pdf": "/pdfs/class9-10/bangla_grammar.pdf"
+        },
+        {
+          "id": "english_today",
+          "name": {
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          },
+          "pdf": "/pdfs/class9-10/english_today.pdf"
+        },
+        {
+          "id": "english_grammar",
+          "name": {
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
+          },
+          "pdf": "/pdfs/class9-10/english_grammar.pdf"
+        },
+        {
+          "id": "mathematics",
+          "name": {
+            "en": "Mathematics",
+            "bn": "গণিত"
+          },
+          "pdf": "/pdfs/class9-10/mathematics.pdf"
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          },
+          "pdf": "/pdfs/class9-10/ict.pdf"
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          },
+          "pdf": "/pdfs/class9-10/science.pdf"
+        },
+        {
+          "id": "physics",
+          "name": {
+            "en": "Physics",
+            "bn": "পদার্থবিজ্ঞান"
+          },
+          "pdf": "/pdfs/class9-10/physics.pdf"
+        },
+        {
+          "id": "chemistry",
+          "name": {
+            "en": "Chemistry",
+            "bn": "রসায়ন"
+          },
+          "pdf": "/pdfs/class9-10/chemistry.pdf"
+        },
+        {
+          "id": "biology",
+          "name": {
+            "en": "Biology",
+            "bn": "জীববিজ্ঞান"
+          },
+          "pdf": "/pdfs/class9-10/biology.pdf"
+        },
+        {
+          "id": "higher_math",
+          "name": {
+            "en": "Higher Mathematics",
+            "bn": "উচ্চতর গণিত"
+          },
+          "pdf": "/pdfs/class9-10/higher_math.pdf"
+        },
+        {
+          "id": "geography",
+          "name": {
+            "en": "Geography and Environment",
+            "bn": "ভূগোল ও পরিবেশ"
+          },
+          "pdf": "/pdfs/class9-10/geography.pdf"
+        },
+        {
+          "id": "economics",
+          "name": {
+            "en": "Economics",
+            "bn": "অর্থনীতি"
+          },
+          "pdf": "/pdfs/class9-10/economics.pdf"
+        },
+        {
+          "id": "agriculture",
+          "name": {
+            "en": "Agriculture Studies",
+            "bn": "কৃষিশিক্ষা"
+          },
+          "pdf": "/pdfs/class9-10/agriculture.pdf"
+        },
+        {
+          "id": "home_science",
+          "name": {
+            "en": "Home Science",
+            "bn": "গার্হস্থ্যবিজ্ঞান"
+          },
+          "pdf": "/pdfs/class9-10/home_science.pdf"
+        },
+        {
+          "id": "civics",
+          "name": {
+            "en": "Civics and Citizenship",
+            "bn": "পৌরনীতি ও নাগরিকতা"
+          },
+          "pdf": "/pdfs/class9-10/civics.pdf"
+        },
+        {
+          "id": "accounting",
+          "name": {
+            "en": "Accounting",
+            "bn": "হিসাববিজ্ঞান"
+          },
+          "pdf": "/pdfs/class9-10/accounting.pdf"
+        },
+        {
+          "id": "finance",
+          "name": {
+            "en": "Finance and Banking",
+            "bn": "ফিন্যান্স ও ব্যাংকিং"
+          },
+          "pdf": "/pdfs/class9-10/finance.pdf"
+        },
+        {
+          "id": "business",
+          "name": {
+            "en": "Business Entrepreneurship",
+            "bn": "ব্যবসায় উদ্যোগ"
+          },
+          "pdf": "/pdfs/class9-10/business.pdf"
+        },
+        {
+          "id": "islamic_studies",
+          "name": {
+            "en": "Islamic Studies",
+            "bn": "ইসলাম শিক্ষা"
+          },
+          "pdf": "/pdfs/class9-10/islamic_studies.pdf"
+        },
+        {
+          "id": "hindu_studies",
+          "name": {
+            "en": "Hindu Religion Studies",
+            "bn": "হিন্দুধর্ম শিক্ষা"
+          },
+          "pdf": "/pdfs/class9-10/hindu_studies.pdf"
+        },
+        {
+          "id": "buddhist_studies",
+          "name": {
+            "en": "Buddhist Religion Studies",
+            "bn": "বৌদ্ধধর্ম শিক্ষা"
+          },
+          "pdf": "/pdfs/class9-10/buddhist_studies.pdf"
+        },
+        {
+          "id": "christian_studies",
+          "name": {
+            "en": "Christian Religion Studies",
+            "bn": "খ্রীষ্টধর্ম শিক্ষা"
+          },
+          "pdf": "/pdfs/class9-10/christian_studies.pdf"
+        },
+        {
+          "id": "career_education",
+          "name": {
+            "en": "Career Education",
+            "bn": "ক্যারিয়ার শিক্ষা"
+          },
+          "pdf": "/pdfs/class9-10/career_education.pdf"
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          },
+          "pdf": "/pdfs/class9-10/bgs.pdf"
+        },
+        {
+          "id": "arts_crafts",
+          "name": {
+            "en": "Arts and Crafts",
+            "bn": "চারু ও কারুকলা"
+          },
+          "pdf": "/pdfs/class9-10/arts_crafts.pdf"
+        },
+        {
+          "id": "history",
+          "name": {
+            "en": "History of Bangladesh and World Civilization",
+            "bn": "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা"
+          },
+          "pdf": "/pdfs/class9-10/history.pdf"
+        },
+        {
+          "id": "physical_ed",
+          "name": {
+            "en": "Physical Education, Health Science and Sports",
+            "bn": "শারীরিক শিক্ষা, স্বাস্থ্যবিজ্ঞান ও খেলাধুলা"
+          },
+          "pdf": "/pdfs/class9-10/physical_ed.pdf"
+        },
+        {
+          "id": "arabic",
+          "name": {
+            "en": "Arabic",
+            "bn": "আরবি"
+          },
+          "pdf": "/pdfs/class9-10/arabic.pdf"
+        },
+        {
+          "id": "sanskrit",
+          "name": {
+            "en": "Sanskrit",
+            "bn": "সংস্কৃত"
+          },
+          "pdf": "/pdfs/class9-10/sanskrit.pdf"
+        },
+        {
+          "id": "pali",
+          "name": {
+            "en": "Pali",
+            "bn": "পালি"
+          },
+          "pdf": "/pdfs/class9-10/pali.pdf"
+        },
+        {
+          "id": "music",
+          "name": {
+            "en": "Music",
+            "bn": "সংগীত"
+          },
+          "pdf": "/pdfs/class9-10/music.pdf"
         }
       ]
     }

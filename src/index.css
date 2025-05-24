@@ -1,3 +1,4 @@
+
 @keyframes float {
   0% {
     transform: translateY(0) rotate(0deg);
@@ -10,6 +11,50 @@
   100% {
     transform: translateY(0) rotate(360deg);
     opacity: 0.5;
+  }
+}
+
+@keyframes moveUp {
+  from { 
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0.8;
+  }
+  to { 
+    transform: translateY(-100px) rotate(360deg);
+    opacity: 0.2;
+  }
+}
+
+@keyframes moveDown {
+  from { 
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 0.8;
+  }
+  to { 
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0.2;
+  }
+}
+
+@keyframes moveLeft {
+  from { 
+    transform: translateX(100vw) rotate(0deg);
+    opacity: 0.8;
+  }
+  to { 
+    transform: translateX(-100px) rotate(-360deg);
+    opacity: 0.2;
+  }
+}
+
+@keyframes moveRight {
+  from { 
+    transform: translateX(-100px) rotate(0deg);
+    opacity: 0.8;
+  }
+  to { 
+    transform: translateX(100vw) rotate(360deg);
+    opacity: 0.2;
   }
 }
 
@@ -30,13 +75,36 @@
   animation: twinkle 3s infinite alternate;
   pointer-events: none;
   z-index: 0;
-  box-shadow: 0 0 12px currentColor;
+  box-shadow: 0 0 20px currentColor;
 }
 
 @keyframes twinkle {
-  0% { opacity: 0.3; transform: scale(0.8); filter: blur(1px); }
-  50% { opacity: 1; transform: scale(1.2); filter: blur(0); }
-  100% { opacity: 0.3; transform: scale(0.8); filter: blur(1px); }
+  0% { 
+    opacity: 0.3; 
+    transform: scale(0.8); 
+    filter: blur(1px);
+    box-shadow: 0 0 20px currentColor;
+  }
+  50% { 
+    opacity: 1; 
+    transform: scale(1.5); 
+    filter: blur(0);
+    box-shadow: 0 0 30px currentColor;
+  }
+  100% { 
+    opacity: 0.3; 
+    transform: scale(0.8); 
+    filter: blur(1px);
+    box-shadow: 0 0 20px currentColor;
+  }
+}
+
+.up-moving-star {
+  animation: twinkle 3s infinite alternate, moveUp 15s linear infinite;
+}
+
+.down-moving-star {
+  animation: twinkle 3s infinite alternate, moveDown 15s linear infinite;
 }
 
 .left-moving-star {
@@ -47,44 +115,16 @@
   animation: twinkle 3s infinite alternate, moveRight 20s linear infinite;
 }
 
-.up-moving-star {
-  animation: twinkle 3s infinite alternate, moveUp 20s linear infinite;
-}
-
-.down-moving-star {
-  animation: twinkle 3s infinite alternate, moveDown 20s linear infinite;
-}
-
-@keyframes moveLeft {
-  from { transform: translateX(100vw); }
-  to { transform: translateX(-100px); }
-}
-
-@keyframes moveRight {
-  from { transform: translateX(-100px); }
-  to { transform: translateX(100vw); }
-}
-
-@keyframes moveUp {
-  from { transform: translateY(100vh); }
-  to { transform: translateY(-100px); }
-}
-
-@keyframes moveDown {
-  from { transform: translateY(-100px); }
-  to { transform: translateY(100vh); }
-}
-
 .section-border {
-  @apply border-2 border-green-200 dark:border-gray-700 rounded-xl p-6 mb-8;
+  @apply border-4 border-bangladesh-green/30 dark:border-bangladesh-green-light/30 rounded-2xl p-8 mb-12 shadow-lg;
 }
 
 .card-plain {
-  @apply bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300;
+  @apply bg-white dark:bg-gray-800 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border-2 border-bangladesh-green/20;
 }
 
 .button-primary {
-  @apply px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 font-semibold shadow-lg;
+  @apply px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-110 font-semibold shadow-xl hover:shadow-2xl;
 }
 
 .dark .animated-dots::before,
@@ -129,19 +169,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -192,4 +225,27 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Smooth scrolling and scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #006A4E, #00A572);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00A572, #006A4E);
 }
