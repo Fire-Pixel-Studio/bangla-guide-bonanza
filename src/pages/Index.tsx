@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import CategoriesSection from '../components/CategoriesSection';
 import Footer from '../components/Footer';
+import Background from '../components/Background';
 
 const Index = () => {
   const [language, setLanguage] = useState<'en' | 'bn'>('en');
@@ -13,7 +14,8 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200 relative">
+      <Background />
       <Header language={language} onLanguageChange={handleLanguageChange} />
       <HeroSection language={language} />
       <CategoriesSection language={language} />

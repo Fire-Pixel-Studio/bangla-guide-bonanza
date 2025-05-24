@@ -72,47 +72,47 @@
 .star {
   position: absolute;
   border-radius: 50%;
-  animation: twinkle 3s infinite alternate;
+  animation: twinkle 2s infinite alternate;
   pointer-events: none;
   z-index: 0;
-  box-shadow: 0 0 20px currentColor;
+  box-shadow: 0 0 10px currentColor;
 }
 
 @keyframes twinkle {
   0% { 
     opacity: 0.3; 
-    transform: scale(0.8); 
+    transform: scale(0.5); 
     filter: blur(1px);
-    box-shadow: 0 0 20px currentColor;
+    box-shadow: 0 0 10px currentColor;
   }
   50% { 
     opacity: 1; 
-    transform: scale(1.5); 
+    transform: scale(1); 
     filter: blur(0);
-    box-shadow: 0 0 30px currentColor;
+    box-shadow: 0 0 15px currentColor;
   }
   100% { 
     opacity: 0.3; 
-    transform: scale(0.8); 
+    transform: scale(0.5); 
     filter: blur(1px);
-    box-shadow: 0 0 20px currentColor;
+    box-shadow: 0 0 10px currentColor;
   }
 }
 
 .up-moving-star {
-  animation: twinkle 3s infinite alternate, moveUp 15s linear infinite;
+  animation: twinkle 2s infinite alternate, moveUp 20s linear infinite;
 }
 
 .down-moving-star {
-  animation: twinkle 3s infinite alternate, moveDown 15s linear infinite;
+  animation: twinkle 2s infinite alternate, moveDown 20s linear infinite;
 }
 
 .left-moving-star {
-  animation: twinkle 3s infinite alternate, moveLeft 20s linear infinite;
+  animation: twinkle 2s infinite alternate, moveLeft 25s linear infinite;
 }
 
 .right-moving-star {
-  animation: twinkle 3s infinite alternate, moveRight 20s linear infinite;
+  animation: twinkle 2s infinite alternate, moveRight 25s linear infinite;
 }
 
 .section-border {
