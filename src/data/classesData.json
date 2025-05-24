@@ -1,3 +1,4 @@
+
 {
   "classes": [
     {
@@ -80,10 +81,10 @@
           }
         },
         {
-          "id": "science",
+          "id": "ict",
           "name": {
-            "en": "Science",
-            "bn": "বিজ্ঞান"
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
           }
         },
         {
@@ -91,6 +92,13 @@
           "name": {
             "en": "Bangladesh and Global Studies",
             "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
           }
         }
       ]
@@ -143,6 +151,27 @@
             "en": "Mathematics",
             "bn": "গণিত"
           }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
+          }
         }
       ]
     },
@@ -161,6 +190,13 @@
           }
         },
         {
+          "id": "anandapath",
+          "name": {
+            "en": "Anandapath",
+            "bn": "আনন্দপাঠ"
+          }
+        },
+        {
           "id": "bangla_grammar",
           "name": {
             "en": "Bangla Grammar and Composition",
@@ -175,10 +211,38 @@
           }
         },
         {
+          "id": "english_grammar",
+          "name": {
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
+          }
+        },
+        {
           "id": "math",
           "name": {
             "en": "Mathematics",
             "bn": "গণিত"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
+          }
+        },
+        {
+          "id": "science",
+          "name": {
+            "en": "Science",
+            "bn": "বিজ্ঞান"
           }
         }
       ]
@@ -191,31 +255,38 @@
       },
       "subjects": [
         {
-          "id": "bangla_1st",
+          "id": "bangla_literature",
           "name": {
-            "en": "Bangla First Paper",
-            "bn": "বাংলা প্রথম পত্র"
+            "en": "Bangla Literature",
+            "bn": "বাংলা সাহিত্য"
           }
         },
         {
-          "id": "bangla_2nd",
+          "id": "bangla_sahopath",
           "name": {
-            "en": "Bangla Second Paper",
-            "bn": "বাংলা দ্বিতীয় পত্র"
+            "en": "Bangla Sahopath",
+            "bn": "বাংলা সহপাঠ"
           }
         },
         {
-          "id": "english_1st",
+          "id": "bangla_grammar",
           "name": {
-            "en": "English First Paper",
-            "bn": "ইংরেজি প্রথম পত্র"
+            "en": "Bangla Language Grammar and Composition",
+            "bn": "বাংলা ভাষার ব্যাকরণ ও নির্মিতি"
           }
         },
         {
-          "id": "english_2nd",
+          "id": "english",
           "name": {
-            "en": "English Second Paper",
-            "bn": "ইংরেজি দ্বিতীয় পত্র"
+            "en": "English for Today",
+            "bn": "ইংরেজি ফর টুডে"
+          }
+        },
+        {
+          "id": "english_grammar",
+          "name": {
+            "en": "English Grammar and Composition",
+            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
           }
         },
         {
@@ -223,6 +294,48 @@
           "name": {
             "en": "Mathematics",
             "bn": "গণিত"
+          }
+        },
+        {
+          "id": "higher_math",
+          "name": {
+            "en": "Higher Mathematics",
+            "bn": "উচ্চতর গণিত"
+          }
+        },
+        {
+          "id": "physics",
+          "name": {
+            "en": "Physics",
+            "bn": "পদার্থবিজ্ঞান"
+          }
+        },
+        {
+          "id": "chemistry",
+          "name": {
+            "en": "Chemistry",
+            "bn": "রসায়ন"
+          }
+        },
+        {
+          "id": "biology",
+          "name": {
+            "en": "Biology",
+            "bn": "জীববিজ্ঞান"
+          }
+        },
+        {
+          "id": "ict",
+          "name": {
+            "en": "Information and Communication Technology",
+            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
+          }
+        },
+        {
+          "id": "bgs",
+          "name": {
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
           }
         }
       ]
