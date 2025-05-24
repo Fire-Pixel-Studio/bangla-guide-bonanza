@@ -39,8 +39,11 @@ const ClassDetails = () => {
   useEffect(() => {
     // Find the class details from the JSON file
     const foundClass = classesData.classes.find(c => c.id === classId);
+    console.log("Found class:", foundClass); // Debug log
     if (foundClass) {
       setClassDetails(foundClass);
+    } else {
+      console.error("Class not found for ID:", classId);
     }
   }, [classId]);
 

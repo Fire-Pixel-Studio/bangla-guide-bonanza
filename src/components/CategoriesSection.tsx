@@ -147,7 +147,7 @@ const CategoriesSection = ({ language }: CategoriesSectionProps) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
           {t.classes.map((classItem, index) => {
             const IconComponent = classItem.icon;
-            const classId = `class${index + 1}`;
+            const classId = classItem.id;
             
             return (
               <Link 
