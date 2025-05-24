@@ -3,6 +3,7 @@ import { useState } from 'react';
 import useButtonSound from '../hooks/useButtonSound';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Background from '../components/Background';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
@@ -83,34 +84,8 @@ const Contact = () => {
   const t = content[language];
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
-      {/* Background with animated stars */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        {[...Array(100)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute animate-pulse"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 3}s`,
-              animationDuration: `${2 + Math.random() * 3}s`
-            }}
-          >
-            <div 
-              className={`rounded-full ${
-                i % 3 === 0 ? 'bg-purple-400/30' : 
-                i % 3 === 1 ? 'bg-bangladesh-green/30' : 
-                'bg-black/20 dark:bg-white/20'
-              }`}
-              style={{
-                width: `${6 + Math.random() * 12}px`,
-                height: `${6 + Math.random() * 12}px`,
-              }}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200 relative">
+      <Background />
 
       <Header language={language} onLanguageChange={handleLanguageChange} />
 
