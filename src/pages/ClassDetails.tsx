@@ -5,7 +5,6 @@ import { Book, ArrowLeft, ExternalLink, Bookmark } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Background from '../components/Background';
-import AdBanner from '../components/AdBanner';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
@@ -48,20 +47,20 @@ const ClassDetails = () => {
     }
   }, [classId]);
 
-  // Handle Guide view button click
-  const handleViewGuide = (subject: any) => {
+  // Handle PDF view button click
+  const handleViewPdf = (subject: any) => {
     playButtonSound();
-    // Open Guide in new tab (when actual PDFs are uploaded)
+    // Open PDF in new tab (when actual PDFs are uploaded)
     window.open(subject.pdf, '_blank');
     
     toast.info(
       language === 'bn' 
-        ? `${subject.name[language]} গাইড খোলা হচ্ছে...` 
-        : `Opening ${subject.name[language]} Guide...`,
+        ? `${subject.name[language]} পিডিএফ খোলা হচ্ছে...` 
+        : `Opening ${subject.name[language]} PDF...`,
       {
         description: language === 'bn' 
-          ? 'গাইড নতুন ট্যাবে খুলবে।' 
-          : 'Guide will open in a new tab.',
+          ? 'পিডিএফ নতুন ট্যাবে খুলবে।' 
+          : 'PDF will open in a new tab.',
         duration: 3000
       }
     );
@@ -80,7 +79,6 @@ const ClassDetails = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <Background />
-        <AdBanner />
         <div className="animate-pulse flex flex-col items-center">
           <div className="h-12 w-12 rounded-full bg-bangladesh-green/20 dark:bg-bangladesh-green-light/20 mb-4"></div>
           <div className="h-6 w-48 rounded-md bg-bangladesh-green/20 dark:bg-bangladesh-green-light/20"></div>
@@ -92,7 +90,6 @@ const ClassDetails = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200 relative">
       <Background />
-      <AdBanner />
 
       <Header language={language} onLanguageChange={handleLanguageChange} />
 
@@ -129,37 +126,37 @@ const ClassDetails = () => {
 
           {/* Bengali Version Content */}
           <TabsContent value="bn" className="animate-fade-in">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {classDetails.subjects.map((subject, idx) => (
-                <Card key={subject.id + "-bn"} className="group hover:shadow-2xl transition-all duration-500 hover:scale-105 cursor-pointer bg-gradient-to-br from-white to-bangladesh-green/5 dark:from-gray-800 dark:to-bangladesh-green/10 border-2 border-bangladesh-green/30 dark:border-bangladesh-green-light/40 overflow-hidden rounded-3xl shadow-lg">
-                  <CardHeader className="bg-gradient-to-r from-bangladesh-green/20 to-purple-200/30 dark:from-bangladesh-green/30 dark:to-purple-900/40 rounded-t-3xl p-6">
-                    <CardTitle className={`flex items-center text-bangladesh-green dark:text-bangladesh-green-light font-bold text-xl ${language === 'bn' ? 'font-bengali' : ''}`}>
-                      <Book className="mr-3 group-hover:scale-110 transition-transform duration-300" size={24} />
+                <Card key={subject.id + "-bn"} className="hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer bg-white dark:bg-gray-800 border-2 border-bangladesh-green/20 dark:border-gray-700 overflow-hidden">
+                  <CardHeader className="bg-gradient-to-r from-bangladesh-green/10 to-purple-100/20 dark:from-bangladesh-green/20 dark:to-purple-900/20 rounded-t-lg">
+                    <CardTitle className={`flex items-center text-bangladesh-green dark:text-bangladesh-green-light ${language === 'bn' ? 'font-bengali' : ''}`}>
+                      <Book className="mr-2" size={20} />
                       {subject.name.bn}
                     </CardTitle>
                   </CardHeader>
-                  <CardContent className="pt-6 p-6">
-                    <p className={`text-gray-600 dark:text-gray-300 mb-6 leading-relaxed ${language === 'bn' ? 'font-bengali text-base' : ''}`}>
+                  <CardContent className="pt-4">
+                    <p className={`text-gray-600 dark:text-gray-300 mb-4 ${language === 'bn' ? 'font-bengali text-sm' : ''}`}>
                       {language === 'bn' 
-                        ? `${subject.name.bn} গাইড দেখুন।` 
-                        : `View ${subject.name.bn} guide.`}
+                        ? `${subject.name.bn} বইয়ের পিডিএফ দেখুন।` 
+                        : `View PDF of ${subject.name.bn} book.`}
                     </p>
                     <button
                       onClick={() => handleBookmarkToggle(subject)}
-                      className={`mb-6 flex items-center text-sm transition-all duration-300 hover:scale-105 ${isBookmarked(subject.id) ? 'text-yellow-500' : 'text-gray-500 hover:text-yellow-500'}`}
+                      className={`mb-4 flex items-center text-sm transition-colors ${isBookmarked(subject.id) ? 'text-yellow-500' : 'text-gray-500 hover:text-yellow-500'}`}
                     >
-                      <Bookmark className="w-4 h-4 mr-2" />
+                      <Bookmark className="w-4 h-4 mr-1" />
                       {language === 'bn' 
                         ? (isBookmarked(subject.id) ? 'বুকমার্ক করা আছে' : 'বুকমার্ক করুন')
                         : (isBookmarked(subject.id) ? 'Bookmarked' : 'Bookmark')}
                     </button>
                     
                     <Button 
-                      onClick={() => handleViewGuide(subject)}
-                      className={`w-full bg-gradient-to-r from-bangladesh-green to-bangladesh-green-light hover:from-bangladesh-green-light hover:to-bangladesh-green text-white transition-all duration-500 hover:scale-105 shadow-lg hover:shadow-xl rounded-2xl py-3 font-semibold ${language === 'bn' ? 'font-bengali' : ''}`}
+                      onClick={() => handleViewPdf(subject)}
+                      className={`w-full bg-bangladesh-green hover:bg-bangladesh-green-light text-white transition-all duration-300 hover:scale-105 ${language === 'bn' ? 'font-bengali' : ''}`}
                     >
-                      <ExternalLink size={18} className="mr-2" />
-                      {language === 'bn' ? 'গাইড দেখুন' : 'View Guide'}
+                      <ExternalLink size={16} className="mr-2" />
+                      {language === 'bn' ? 'পিডিএফ দেখুন' : 'View PDF'}
                     </Button>
                   </CardContent>
                 </Card>
@@ -167,20 +164,43 @@ const ClassDetails = () => {
             </div>
           </TabsContent>
 
-          {/* English Version Content - Coming Soon */}
+          {/* English Version Content */}
           <TabsContent value="en" className="animate-fade-in">
-            <div className="flex flex-col items-center justify-center py-20">
-              <div className="text-center bg-gradient-to-br from-bangladesh-green/10 to-purple-100/20 dark:from-bangladesh-green/20 dark:to-purple-900/20 rounded-3xl p-12 border-2 border-bangladesh-green/20 shadow-xl">
-                <Book className="w-24 h-24 text-bangladesh-green dark:text-bangladesh-green-light mb-6 mx-auto animate-pulse" />
-                <h2 className={`text-3xl font-bold text-bangladesh-green dark:text-bangladesh-green-light mb-4 ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
-                  {language === 'bn' ? 'শীঘ্রই আসছে' : 'Coming Soon'}
-                </h2>
-                <p className={`text-lg text-gray-600 dark:text-gray-300 ${language === 'bn' ? 'font-bengali' : 'font-english'}`}>
-                  {language === 'bn' 
-                    ? 'ইংরেজি সংস্করণ শীঘ্রই উপলব্ধ হবে।' 
-                    : 'English version will be available soon.'}
-                </p>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {classDetails.subjects.map((subject, idx) => (
+                <Card key={subject.id + "-en"} className="hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer bg-white dark:bg-gray-800 border-2 border-bangladesh-green/20 dark:border-gray-700 overflow-hidden">
+                  <CardHeader className="bg-gradient-to-r from-bangladesh-green/10 to-purple-100/20 dark:from-bangladesh-green/20 dark:to-purple-900/20 rounded-t-lg">
+                    <CardTitle className="flex items-center text-bangladesh-green dark:text-bangladesh-green-light">
+                      <Book className="mr-2" size={20} />
+                      {subject.name.en}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent className="pt-4">
+                    <p className="text-gray-600 dark:text-gray-300 mb-4">
+                      {language === 'bn' 
+                        ? `${subject.name.en} বইয়ের পিডিএফ দেখুন।` 
+                        : `View PDF of ${subject.name.en} book.`}
+                    </p>
+                    <button
+                      onClick={() => handleBookmarkToggle(subject)}
+                      className={`mb-4 flex items-center text-sm transition-colors ${isBookmarked(subject.id) ? 'text-yellow-500' : 'text-gray-500 hover:text-yellow-500'}`}
+                    >
+                      <Bookmark className="w-4 h-4 mr-1" />
+                      {language === 'bn' 
+                        ? (isBookmarked(subject.id) ? 'বুকমার্ক করা আছে' : 'বুকমার্ক করুন')
+                        : (isBookmarked(subject.id) ? 'Bookmarked' : 'Bookmark')}
+                    </button>
+
+                    <Button 
+                      onClick={() => handleViewPdf(subject)}
+                      className={`w-full bg-bangladesh-green hover:bg-bangladesh-green-light text-white transition-all duration-300 hover:scale-105 ${language === 'bn' ? 'font-bengali' : ''}`}
+                    >
+                      <ExternalLink size={16} className="mr-2" />
+                      {language === 'bn' ? 'পিডিএফ দেখুন' : 'View PDF'}
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </TabsContent>
         </Tabs>
