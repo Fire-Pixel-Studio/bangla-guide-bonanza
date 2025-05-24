@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import classesData from '../data/classesData.json';
@@ -6,6 +5,7 @@ import { Book, ArrowLeft, ExternalLink, Bookmark } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Background from '../components/Background';
+import AdBanner from '../components/AdBanner';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
@@ -80,6 +80,7 @@ const ClassDetails = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <Background />
+        <AdBanner />
         <div className="animate-pulse flex flex-col items-center">
           <div className="h-12 w-12 rounded-full bg-bangladesh-green/20 dark:bg-bangladesh-green-light/20 mb-4"></div>
           <div className="h-6 w-48 rounded-md bg-bangladesh-green/20 dark:bg-bangladesh-green-light/20"></div>
@@ -91,6 +92,7 @@ const ClassDetails = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200 relative">
       <Background />
+      <AdBanner />
 
       <Header language={language} onLanguageChange={handleLanguageChange} />
 
