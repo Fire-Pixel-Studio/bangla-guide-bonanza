@@ -1,4 +1,3 @@
-
 {
   "classes": [
     {
@@ -81,20 +80,6 @@
           }
         },
         {
-          "id": "ict",
-          "name": {
-            "en": "Information and Communication Technology",
-            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
-          }
-        },
-        {
-          "id": "bgs",
-          "name": {
-            "en": "Bangladesh and Global Studies",
-            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
-        },
-        {
           "id": "science",
           "name": {
             "en": "Science",
@@ -102,101 +87,10 @@
           }
         },
         {
-          "id": "physical_education",
+          "id": "bgs",
           "name": {
-            "en": "Physical Education and Health",
-            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
-          }
-        },
-        {
-          "id": "work_education",
-          "name": {
-            "en": "Work and Life Oriented Education",
-            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
-          }
-        },
-        {
-          "id": "agriculture",
-          "name": {
-            "en": "Agriculture Studies",
-            "bn": "কৃষিশিক্ষা"
-          }
-        },
-        {
-          "id": "home_science",
-          "name": {
-            "en": "Home Science",
-            "bn": "গার্হস্থ্যবিজ্ঞান"
-          }
-        },
-        {
-          "id": "arts",
-          "name": {
-            "en": "Arts and Crafts",
-            "bn": "চারু ও কারুকলা"
-          }
-        },
-        {
-          "id": "islam",
-          "name": {
-            "en": "Islamic Studies",
-            "bn": "ইসলাম শিক্ষা"
-          }
-        },
-        {
-          "id": "hindu",
-          "name": {
-            "en": "Hindu Religion Studies",
-            "bn": "হিন্দুধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "christian",
-          "name": {
-            "en": "Christian Religion Studies",
-            "bn": "খ্রীষ্টধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "buddhist",
-          "name": {
-            "en": "Buddhist Religion Studies",
-            "bn": "বৌদ্ধধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "arabic",
-          "name": {
-            "en": "Illustrated Arabic Reading",
-            "bn": "সচিত্র আরবি পাঠ"
-          }
-        },
-        {
-          "id": "sanskrit",
-          "name": {
-            "en": "Sanskrit",
-            "bn": "সংস্কৃত"
-          }
-        },
-        {
-          "id": "pali",
-          "name": {
-            "en": "Pali",
-            "bn": "পালি"
-          }
-        },
-        {
-          "id": "music",
-          "name": {
-            "en": "Music",
-            "bn": "সংগীত"
-          }
-        },
-        {
-          "id": "minority_language",
-          "name": {
-            "en": "Language and Culture of Minority Ethnic Groups",
-            "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
+            "en": "Bangladesh and Global Studies",
+            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
           }
         }
       ]
@@ -249,125 +143,6 @@
             "en": "Mathematics",
             "bn": "গণিত"
           }
-        },
-        {
-          "id": "ict",
-          "name": {
-            "en": "Information and Communication Technology",
-            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
-          }
-        },
-        {
-          "id": "bgs",
-          "name": {
-            "en": "Bangladesh and Global Studies",
-            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
-        },
-        {
-          "id": "science",
-          "name": {
-            "en": "Science",
-            "bn": "বিজ্ঞান"
-          }
-        },
-        {
-          "id": "physical_education",
-          "name": {
-            "en": "Physical Education and Health",
-            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
-          }
-        },
-        {
-          "id": "work_education",
-          "name": {
-            "en": "Work and Life Oriented Education",
-            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
-          }
-        },
-        {
-          "id": "agriculture",
-          "name": {
-            "en": "Agriculture Studies",
-            "bn": "কৃষিশিক্ষা"
-          }
-        },
-        {
-          "id": "home_science",
-          "name": {
-            "en": "Home Science",
-            "bn": "গার্হস্থ্যবিজ্ঞান"
-          }
-        },
-        {
-          "id": "arts",
-          "name": {
-            "en": "Arts and Crafts",
-            "bn": "চারু ও কারুকলা"
-          }
-        },
-        {
-          "id": "islam",
-          "name": {
-            "en": "Islamic Studies",
-            "bn": "ইসলাম শিক্ষা"
-          }
-        },
-        {
-          "id": "hindu",
-          "name": {
-            "en": "Hindu Religion Studies",
-            "bn": "হিন্দুধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "christian",
-          "name": {
-            "en": "Christian Religion Studies",
-            "bn": "খ্রীষ্টধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "buddhist",
-          "name": {
-            "en": "Buddhist Religion Studies",
-            "bn": "বৌদ্ধধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "arabic",
-          "name": {
-            "en": "Easy Arabic Reading",
-            "bn": "সহজ আরবি পাঠ"
-          }
-        },
-        {
-          "id": "sanskrit",
-          "name": {
-            "en": "Sanskrit",
-            "bn": "সংস্কৃত"
-          }
-        },
-        {
-          "id": "pali",
-          "name": {
-            "en": "Pali",
-            "bn": "পালি"
-          }
-        },
-        {
-          "id": "music",
-          "name": {
-            "en": "Music",
-            "bn": "সংগীত"
-          }
-        },
-        {
-          "id": "minority_language",
-          "name": {
-            "en": "Language and Culture of Minority Ethnic Groups",
-            "bn": "ক্ষুদ্র নৃগোষ্ঠীর ভাষা ও সংস্কৃতি"
-          }
         }
       ]
     },
@@ -386,13 +161,6 @@
           }
         },
         {
-          "id": "anandapath",
-          "name": {
-            "en": "Anandapath",
-            "bn": "আনন্দপাঠ"
-          }
-        },
-        {
           "id": "bangla_grammar",
           "name": {
             "en": "Bangla Grammar and Composition",
@@ -407,129 +175,10 @@
           }
         },
         {
-          "id": "english_grammar",
-          "name": {
-            "en": "English Grammar and Composition",
-            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
-          }
-        },
-        {
           "id": "math",
           "name": {
             "en": "Mathematics",
             "bn": "গণিত"
-          }
-        },
-        {
-          "id": "ict",
-          "name": {
-            "en": "Information and Communication Technology",
-            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
-          }
-        },
-        {
-          "id": "bgs",
-          "name": {
-            "en": "Bangladesh and Global Studies",
-            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
-        },
-        {
-          "id": "science",
-          "name": {
-            "en": "Science",
-            "bn": "বিজ্ঞান"
-          }
-        },
-        {
-          "id": "physical_education",
-          "name": {
-            "en": "Physical Education and Health",
-            "bn": "শারীরিক শিক্ষা ও স্বাস্থ্য"
-          }
-        },
-        {
-          "id": "work_education",
-          "name": {
-            "en": "Work and Life Oriented Education",
-            "bn": "কর্ম ও জীবনমুখী শিক্ষা"
-          }
-        },
-        {
-          "id": "agriculture",
-          "name": {
-            "en": "Agriculture Studies",
-            "bn": "কৃষিশিক্ষা"
-          }
-        },
-        {
-          "id": "home_science",
-          "name": {
-            "en": "Home Science",
-            "bn": "গার্হস্থ্যবিজ্ঞান"
-          }
-        },
-        {
-          "id": "arts",
-          "name": {
-            "en": "Arts and Crafts",
-            "bn": "চারু ও কারুকলা"
-          }
-        },
-        {
-          "id": "islam",
-          "name": {
-            "en": "Islamic Studies",
-            "bn": "ইসলাম শিক্ষা"
-          }
-        },
-        {
-          "id": "hindu",
-          "name": {
-            "en": "Hindu Religion Studies",
-            "bn": "হিন্দুধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "christian",
-          "name": {
-            "en": "Christian Religion Studies",
-            "bn": "খ্রীষ্টধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "buddhist",
-          "name": {
-            "en": "Buddhist Religion Studies",
-            "bn": "বৌদ্ধধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "arabic",
-          "name": {
-            "en": "Easy Arabic Reading",
-            "bn": "সহজ আরবি পাঠ"
-          }
-        },
-        {
-          "id": "sanskrit",
-          "name": {
-            "en": "Sanskrit",
-            "bn": "সংস্কৃত"
-          }
-        },
-        {
-          "id": "pali",
-          "name": {
-            "en": "Pali",
-            "bn": "পালি"
-          }
-        },
-        {
-          "id": "music",
-          "name": {
-            "en": "Music",
-            "bn": "সংগীত"
           }
         }
       ]
@@ -542,38 +191,31 @@
       },
       "subjects": [
         {
-          "id": "bangla_literature",
+          "id": "bangla_1st",
           "name": {
-            "en": "Bangla Literature",
-            "bn": "বাংলা সাহিত্য"
+            "en": "Bangla First Paper",
+            "bn": "বাংলা প্রথম পত্র"
           }
         },
         {
-          "id": "bangla_sahopath",
+          "id": "bangla_2nd",
           "name": {
-            "en": "Bangla Sahopath",
-            "bn": "বাংলা সহপাঠ"
+            "en": "Bangla Second Paper",
+            "bn": "বাংলা দ্বিতীয় পত্র"
           }
         },
         {
-          "id": "bangla_grammar",
+          "id": "english_1st",
           "name": {
-            "en": "Bangla Language Grammar and Composition",
-            "bn": "বাংলা ভাষার ব্যাকরণ ও নির্মিতি"
+            "en": "English First Paper",
+            "bn": "ইংরেজি প্রথম পত্র"
           }
         },
         {
-          "id": "english",
+          "id": "english_2nd",
           "name": {
-            "en": "English for Today",
-            "bn": "ইংরেজি ফর টুডে"
-          }
-        },
-        {
-          "id": "english_grammar",
-          "name": {
-            "en": "English Grammar and Composition",
-            "bn": "ইংরেজি ব্যাকরণ ও নির্মিতি"
+            "en": "English Second Paper",
+            "bn": "ইংরেজি দ্বিতীয় পত্র"
           }
         },
         {
@@ -581,188 +223,6 @@
           "name": {
             "en": "Mathematics",
             "bn": "গণিত"
-          }
-        },
-        {
-          "id": "higher_math",
-          "name": {
-            "en": "Higher Mathematics",
-            "bn": "উচ্চতর গণিত"
-          }
-        },
-        {
-          "id": "physics",
-          "name": {
-            "en": "Physics",
-            "bn": "পদার্থবিজ্ঞান"
-          }
-        },
-        {
-          "id": "chemistry",
-          "name": {
-            "en": "Chemistry",
-            "bn": "রসায়ন"
-          }
-        },
-        {
-          "id": "biology",
-          "name": {
-            "en": "Biology",
-            "bn": "জীববিজ্ঞান"
-          }
-        },
-        {
-          "id": "ict",
-          "name": {
-            "en": "Information and Communication Technology",
-            "bn": "তথ্য ও যোগাযোগ প্রযুক্তি"
-          }
-        },
-        {
-          "id": "geography",
-          "name": {
-            "en": "Geography and Environment",
-            "bn": "ভূগোল ও পরিবেশ"
-          }
-        },
-        {
-          "id": "economics",
-          "name": {
-            "en": "Economics",
-            "bn": "অর্থনীতি"
-          }
-        },
-        {
-          "id": "agriculture",
-          "name": {
-            "en": "Agriculture Studies",
-            "bn": "কৃষিশিক্ষা"
-          }
-        },
-        {
-          "id": "home_science",
-          "name": {
-            "en": "Home Science",
-            "bn": "গার্হস্থ্যবিজ্ঞান"
-          }
-        },
-        {
-          "id": "civics",
-          "name": {
-            "en": "Civics and Citizenship",
-            "bn": "পৌরনীতি ও নাগরিকতা"
-          }
-        },
-        {
-          "id": "accounting",
-          "name": {
-            "en": "Accounting",
-            "bn": "হিসাববিজ্ঞান"
-          }
-        },
-        {
-          "id": "finance",
-          "name": {
-            "en": "Finance and Banking",
-            "bn": "ফিন্যান্স ও ব্যাংকিং"
-          }
-        },
-        {
-          "id": "business",
-          "name": {
-            "en": "Business Entrepreneurship",
-            "bn": "ব্যবসায় উদ্যোগ"
-          }
-        },
-        {
-          "id": "islam",
-          "name": {
-            "en": "Islamic Studies",
-            "bn": "ইসলাম শিক্ষা"
-          }
-        },
-        {
-          "id": "hindu",
-          "name": {
-            "en": "Hindu Religion Studies",
-            "bn": "হিন্দুধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "buddhist",
-          "name": {
-            "en": "Buddhist Religion Studies",
-            "bn": "বৌদ্ধধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "christian",
-          "name": {
-            "en": "Christian Religion Studies",
-            "bn": "খ্রীষ্টধর্ম শিক্ষা"
-          }
-        },
-        {
-          "id": "career",
-          "name": {
-            "en": "Career Education",
-            "bn": "ক্যারিয়ার শিক্ষা"
-          }
-        },
-        {
-          "id": "bgs",
-          "name": {
-            "en": "Bangladesh and Global Studies",
-            "bn": "বাংলাদেশ ও বিশ্বপরিচয়"
-          }
-        },
-        {
-          "id": "arts",
-          "name": {
-            "en": "Arts and Crafts",
-            "bn": "চারু ও কারুকলা"
-          }
-        },
-        {
-          "id": "history",
-          "name": {
-            "en": "History of Bangladesh and World Civilization",
-            "bn": "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা"
-          }
-        },
-        {
-          "id": "physical_education",
-          "name": {
-            "en": "Physical Education, Health Science and Sports",
-            "bn": "শারীরিক শিক্ষা, স্বাস্থ্যবিজ্ঞান ও খেলাধুলা"
-          }
-        },
-        {
-          "id": "arabic",
-          "name": {
-            "en": "Arabic",
-            "bn": "আরবি"
-          }
-        },
-        {
-          "id": "sanskrit",
-          "name": {
-            "en": "Sanskrit",
-            "bn": "সংস্কৃত"
-          }
-        },
-        {
-          "id": "pali",
-          "name": {
-            "en": "Pali",
-            "bn": "পালি"
-          }
-        },
-        {
-          "id": "music",
-          "name": {
-            "en": "Music",
-            "bn": "সংগীত"
           }
         }
       ]
